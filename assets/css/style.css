@@ -15,7 +15,9 @@ body {
     opacity: 0.7;
 }
 
-
+.dropdown {
+    right: 5%;
+}
 
 
 /* CUSTOMIZE THE CAROUSEL
