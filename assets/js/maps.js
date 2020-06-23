@@ -1,13 +1,11 @@
 
-
-// Initialize and add the map
 function initMap() {
-
-  const uluru = {lat: -25.344, lng: 131.036};
-
-  const map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 4,
-    center: uluru
-  });
-
+  // The location of covent garden
+  const coventGarden = {lat: 51.512945, lng: 0.125379};
+  // The map, centered at covent garden
+  const map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 8, center: coventGarden});
+  // The marker, positioned at covent garden
+  const marker = new google.maps.Marker({position: coventGarden, map: map});
 }
+ 
