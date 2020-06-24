@@ -80,9 +80,11 @@ body {
 
 .row, .featurette, {
     width: 100%;
-
 }
 
+.featurette-divider {
+    padding: -20px;
+}
 
 /*-----hidden background 
 .background-image {
