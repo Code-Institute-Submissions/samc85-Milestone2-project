@@ -77,8 +77,42 @@ body {
   letter-spacing: -.05rem;
 }
 
+
+.background-image {
+    background-image: url("/assets/images/index_images/about.jpg");
+    width: 110%;
+    height: 100%;
+    background-position: left;
+    background-size: cover;
+    padding: 60px;
+    padding-top: 9%;
+    color: white;
+}
+
+.lead, .featurette-heading {
+    padding-left: 10%;
+}
+
 /* Link images
+
+
 --------------------------------------------------- */
+
+h1, .packages {
+    text-align: center;
+}
+
+.package-options {
+    background-color: lightgrey;
+    padding: 9px;
+    border: 2pt solid black;
+}
+
+.package-border {
+    border-right: 2pt solid black;
+}
+
+
 
 img.coast {
     border-radius: 50%;
@@ -96,6 +130,7 @@ img.coast {
 
 footer {
     opacity: 0.7;
+    color: white;
 }
 
 
