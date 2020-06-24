@@ -77,6 +77,13 @@ body {
   letter-spacing: -.05rem;
 }
 
+
+.row, .featurette, {
+    width: 100%;
+
+}
+
+
 /*-----hidden background 
 .background-image {
     background-image: url("/assets/images/index_images/about.jpg");
