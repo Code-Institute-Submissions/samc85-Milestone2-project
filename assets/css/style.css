@@ -120,7 +120,7 @@ body {
 }
 
 .background-image-discover {
-    background-image: url("/assets/images/index_images/discover.jpg");
+    background-image: url("../images/index_images/discover.jpg");
     width: 100%;
     height: 100%;
     padding-top: 180px;
