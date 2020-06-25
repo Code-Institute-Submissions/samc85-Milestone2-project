@@ -19,6 +19,9 @@ body {
     right: 5%;
 }
 
+/* hero image */
+
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -70,23 +73,9 @@ body {
   margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
 
-
-.row, .featurette, {
-    width: 100%;
-}
-
-
-
-
-.background-image-about {
-    background-image: url("/assets/images/index_images/about.jpg");
+.hero-image{
+    background-image: url("/assets/images/index_images/banner.jpg");
     width: 100%;
     height: 100%;
     padding-top: 180px;
@@ -96,13 +85,30 @@ body {
     display: inline-block;
     color: white;
     margin: 0 auto;
+}
+
+.text-align {
+    padding-left: 12px;
+}
+
+
+.background-image-about {
+    background-image: url("/assets/images/index_images/about.jpg");
+    width: 20%;
+    height: 20%;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: white;
+    margin: 0 auto;
     opacity: 0.8;
+    border-radius: 50%;
 }
 
 .background-image-what {
     background-image: url("/assets/images/index_images/whatwedo.jpg");
     width: 100%;
-    height: 100%;
+    height: 50%;
     padding-top: 180px;
     padding-bottom: 30px;
     background-position: center;

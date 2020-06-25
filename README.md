@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+https://samc85.github.io/Milestone2-project/index.html
 
 Welcome Sam Croyle,
 
