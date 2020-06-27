@@ -15,8 +15,14 @@ body {
 --------------------------------------------------- */
 
 .navbar {
-    opacity: 0.7;
+    opacity: 0.8;
+    
 }
+
+.navbar-brand {
+    color: black;
+}
+
 
 .dropdown {
     right: 5%;
@@ -91,7 +97,6 @@ body {
     display: inline-block;
     color: black;
     margin: 0 auto;
-    
 }
 
 .background-image-adventure {
@@ -104,7 +109,6 @@ body {
     display: inline-block;
     color: white;
     background-position: center;
-    
 }
 
 
@@ -137,6 +141,8 @@ h1, .packages {
 
 img.coast {
     border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 
@@ -188,3 +194,5 @@ footer {
     margin-top: 7rem;
   }
 }
+
+
