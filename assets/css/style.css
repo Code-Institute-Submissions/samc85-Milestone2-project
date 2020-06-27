@@ -91,7 +91,20 @@ body {
     display: inline-block;
     color: black;
     margin: 0 auto;
-    opacity: 0.8;
+    
+}
+
+.background-image-adventure {
+    background-image: url("../images/adventure_images_travel/adventurehero.jpg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 320px;
+    padding-top: 270px;
+    background-size: cover;
+    display: inline-block;
+    color: white;
+    background-position: center;
+    
 }
 
 
