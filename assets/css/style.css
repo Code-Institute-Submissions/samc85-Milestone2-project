@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-image:linear-gradient(#FFFFFF,#4B79A1);
+  /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
 }
 
 
@@ -122,10 +122,18 @@ h1, .packages {
 }
 
 
-
 img.coast {
     border-radius: 50%;
 }
+
+
+/*---- Google Maps API */
+
+/* Set the size of the div element that contains the map */
+      #map_path {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
 
 #map {
    width: 100%;
