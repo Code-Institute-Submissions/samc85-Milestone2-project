@@ -7,9 +7,8 @@
 body {
   margin: 0;
   /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
+font-family: 'Montserrat', sans-serif;
 }
-
-
 
 /* Navbar 
 --------------------------------------------------- */
@@ -71,6 +70,25 @@ body {
     padding-left: 12px;
 }
 
+.discover-text {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32pt;
+    padding-bottom: 42px;
+}
+
+.what-text {
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    padding-top: 60px;
+    font-size: 32pt;
+    margin: 0 auto;
+    font-weight: 700;
+    padding-right: 21px;
+}
+
 
 .background-image-what {
     background-image: url("../images/index_images/whatwedo.jpg");
@@ -81,9 +99,9 @@ body {
     background-position: center;
     background-size: cover;
     display: inline-block;
-    color: black;
+    color: white;
     margin: 0 auto;
-    opacity: 0.8;
+    opacity: 1.0;
 }
 
 .background-image-discover {
@@ -95,7 +113,7 @@ body {
     background-position: center;
     background-size: cover;
     display: inline-block;
-    color: black;
+    color: white;
     margin: 0 auto;
 }
 
