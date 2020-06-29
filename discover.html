@@ -55,7 +55,7 @@
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+            <div id="map"></div>
           </div>
         </div>
 
@@ -87,7 +87,7 @@
 
         <!-- /END THE FEATURETTES -->
 
-      </div><!-- /.container -->
+ 
 
   
 
@@ -101,22 +101,32 @@
  
      <hr class="feature-space">
   
+<!--- Discover link -->
+<div class= "row">
+ <div class="col-lg-12">
+     <h1> Image gallery </h1>
+      </div><!-- /.col-lg-4 -->
+</div>
+ 
+     <hr class="feature-space">
+  
 <div class ="container">
   <div class="row">
     <div class="col-lg-4">
-      <img src="assets/images/index_images/country.jpg" height= "280" width= "320" alt="Third slide">
+      <img src="assets/images/index_images/country.jpg" height= "250" width= "320" alt="Third slide">
       </div>
     <div class="col-lg-4">
-      <img src="assets/images/index_images/hike.jpg" height= "280" width= "320" alt="Third slide">
+      <img src="assets/images/index_images/hike.jpg" height= "250" width= "320" alt="Third slide">
     </div>
     <div class="col-lg-4">
-      <img src="assets/images/index_images/discoverlakes.jpg" height= "280" width= "320" alt="Third slide">
+      <img src="assets/images/index_images/discoverlakes.jpg" height= "250" width= "320" alt="Third slide">
     </div>
   </div>
 </div>
      <hr class="feature-space">
 
-</div>
+     </div><!-- /.container -->
+
 
 
 <!-- footer -->
@@ -165,7 +175,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
 
-<script async defer src= "http://api.weatherunlocked.com/api/current/40.71,-74.00?app_id=6d7b8b19&app_key=3a166867184258fb2dfcb83735b2fac9"></script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=initMap">
+    </script>
+<script src="assets/js/maps.js"></script>
 
 
 
