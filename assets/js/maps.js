@@ -21,3 +21,5 @@ const marker = new google.maps.Marker({position: coventGarden, map: map});
 const mark = new google.maps.Marker({position: coventGarden, mapadventure: mapadventure});
 };
 
+google.maps.event.addDomListener(window, 'load', initialize);
+
