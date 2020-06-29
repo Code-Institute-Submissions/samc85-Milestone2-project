@@ -24,13 +24,8 @@ var map = {
     zoom:5,
 };
 
-var map2 = {
-    center: new google.maps.LatLng(54.4609, 131.036),
-    zoom:5,
-};
-
 var map = new google.maps.Map(document.getElementById("map"),map);
-var map2 = new google.maps.Map(document.getElementById("mapadventure"),map2);
+
 };
 
 function myMap1() {
