@@ -3,23 +3,39 @@
 
 
 
-//map for index page contact us
-function initMap() {
-  // The location of covent garden
-  const coventGarden = {lat: 51.512945, lng: 0.125379};
 
+function initialize() {
+    var latlng = new google.maps.LatLng(18.520266,73.856406);
+    var latlng2 = new google.maps.LatLng(28.579943,77.330006);
+    var myOptions = {
+        zoom: 15,
+        center: latlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
 
-  // The marker, positioned at covent garden
-const map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 8, center: coventGarden});
+    var myOptions2 =  {
+        zoom: 15,
+        center: latlng2,
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    };
 
-const mapadventure = new google.maps.Map(
-      document.getElementById('mapadventure'), {zoom: 8, center: coventGarden});
+    var map = new google.maps.Map(document.getElementById("maps"), myOptions);
+    
+    var map2 = new google.maps.Map(document.getElementById("mapadventure"), myOptions2);
 
-  // The marker, positioned at covent garden
-const marker = new google.maps.Marker({position: coventGarden, map: map});
-const mark = new google.maps.Marker({position: coventGarden, mapadventure: mapadventure});
-};
+    var myMarker = new google.maps.Marker(
+    {
+        position: latlng,
+        map: map,
+        title:"Pune"
+   });
+
+    var myMarker2 = new google.maps.Marker(
+    {
+        position: latlng2,
+        map: map2,
+        title:"Noida"
+    });
+}
 
 google.maps.event.addDomListener(window, 'load', initialize);
-
