@@ -191,6 +191,12 @@ img.coast {
     margin: 0 auto;
 }
 
+.card-image-top{
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+
 /*-- carousel.  */
 
 .carousel .carousel-item {

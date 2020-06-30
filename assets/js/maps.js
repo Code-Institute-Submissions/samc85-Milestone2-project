@@ -37,3 +37,17 @@ var map2 = {
 
 var map2 = new google.maps.Map(document.getElementById("mapadventure"),map2);
 }
+
+$.ajax({
+        url: "https://api.weatherunlocked.com/api/current/51.5,-0.1?app_id={APP_ID}&app_key={APP_KEY}",
+        type: "GET",
+        success: function (parsedResponse, statusText, jqXhr) {
+
+            console.log(parsedResponse);
+
+        },
+        error: function (error) {
+
+            console.log(error);
+        }
+    });
