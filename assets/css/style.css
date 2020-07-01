@@ -1,13 +1,11 @@
-
-
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
 body {
-  margin: 0;
-  /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
-font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Navbar 
@@ -15,47 +13,42 @@ font-family: 'Montserrat', sans-serif;
 
 .navbar {
     opacity: 0.8;
-    
 }
 
 .navbar-brand {
     color: black;
 }
 
-
 .dropdown {
     right: 5%;
 }
-
-
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 .marketing h2 {
-  font-weight: 400;
+    font-weight: 400;
 }
 .marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
 }
-
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* hero image */
 
-.hero-image{
+.hero-image {
     background-image: url("../images/index_images/discoverlakes.jpg");
     width: 100%;
     height: 100%;
@@ -70,6 +63,22 @@ font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
+.hero-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32pt;
+}
+
+.about-text {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32pt;
+    margin: 0 auto;
+    padding-right: 21px;
+    padding-bottom: 42px;
+}
+
 .discover-text {
     color: black;
     text-align: center;
@@ -82,13 +91,11 @@ font-family: 'Montserrat', sans-serif;
     color: black;
     text-align: center;
     font-weight: bold;
-   
-    font-size: 24pt;
+    font-size: 32pt;
     margin: 0 auto;
-    font-weight: 700;
     padding-right: 21px;
+    padding-bottom: 42px;
 }
-
 
 .background-image-what {
     background-image: url("../images/index_images/whatwedo.jpg");
@@ -101,7 +108,7 @@ font-family: 'Montserrat', sans-serif;
     display: inline-block;
     color: white;
     margin: 0 auto;
-    opacity: 1.0;
+    opacity: 1;
 }
 
 .background-image-discover {
@@ -151,12 +158,10 @@ font-family: 'Montserrat', sans-serif;
     display: inline-block;
     background-position: center;
 }
-   
 
 .image-radius {
     padding-top: 24px;
 }
-
 
 .featurette-heading {
     padding-left: 9px;
@@ -167,10 +172,13 @@ font-family: 'Montserrat', sans-serif;
     margin: 30px;
 }
 
+.background-color {
+    background-image: lightgrey;
+}
 
---------------------------------------------------- */
 
-h1, .packages {
+--------------------------------------------------- */ h1,
+.packages {
     text-align: center;
 }
 
@@ -184,14 +192,13 @@ h1, .packages {
     border-right: 2pt solid black;
 }
 
-
 img.coast {
     border-radius: 50%;
     display: inline-block;
     margin: 0 auto;
 }
 
-.card-image-top{
+.card-image-top {
     border-radius: 50%;
     margin: 0 auto;
     margin-top: 6px;
@@ -200,36 +207,40 @@ img.coast {
 /*-- carousel.  */
 
 .carousel .carousel-item {
-  height: 500px;
+    height: 500px;
 }
 
 .carousel-item img {
     position: absolute;
-    object-fit:cover;
+    object-fit: cover;
     top: 0;
     left: 0;
     min-height: 500px;
 }
 
+/*---- video ---*/
+
+iframe {
+    margin: 0 auto;
+}
+
+
 
 /*---- Google Maps API */
 
 /* Set the size of the div element that contains the map */
-    
 
 #map {
-   width: 100%;
-   height: 400px;
-   background-color: grey;
- }
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
 
- #mapadventure {
-   width: 100%;
-   height: 400px;
-   background-color: grey;
- }
-
-
+#mapadventure {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
 
 /* Footer
 -------------------------------------------------- */
@@ -237,40 +248,43 @@ img.coast {
 footer {
     opacity: 0.7;
     color: white;
-    background-image: linear-gradient(#000000,#232526,#000000);
+    background-image: linear-gradient(#000000, #232526, #000000);
 }
-
-
-
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
 
-  .featurette-heading {
-    font-size: 50px;
-  }
+    .featurette-heading {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+    .featurette-heading {
+        margin-top: 7rem;
+    }
 }
 
-@media(max-width:768px){
-.carousel .carousel-inner{
-//prevent it from adding a white space between carousel and container elements
-height:auto
- }
+@media (max-width: 768px) {
+    .carousel .carousel-inner {
+        
+        height: auto;
+    }
 }
 
 
+@media (max-width: 768px) {
+    .video {
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+    }
+}
