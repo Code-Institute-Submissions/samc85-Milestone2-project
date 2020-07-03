@@ -247,6 +247,9 @@ iframe {
     background-color: grey;
 }
 
+
+
+
 /* Footer
 -------------------------------------------------- */
 
@@ -280,24 +283,8 @@ footer {
 
 @media (max-width: 768px) {
     .carousel .carousel-inner {
-        
         height: auto;
     }
 }
 
 
-@media (max-width: 768px) {
-    .video {
-        height: 400px;
-        width: 400px;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width: 320px) {
-    .video {
-        height: 400px;
-        width: 400px;
-        margin: 0 auto;
-    }
-}
