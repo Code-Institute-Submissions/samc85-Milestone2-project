@@ -226,7 +226,15 @@ iframe {
 
 /*---- jquery ----- */
 
-.hidetext {
+.hidetext-adventure {
+    display: none;
+}
+
+.hidetext-country {
+    display: none;
+}
+
+.hidetext-comfort {
     display: none;
 }
 
