@@ -148,6 +148,19 @@ body {
     background-position: center;
 }
 
+
+.background-image-adventuretravel {
+    background-image: url("../images/adventure_images/hike.jpg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 150px;
+    padding-top: 120px;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+
 .background-image-comforttravel {
     background-image: url("../images/comfort_images/countryroad.jpg");
     width: 100%;
