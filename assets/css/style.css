@@ -148,8 +148,8 @@ body {
     background-position: center;
 }
 
-.background-image-adventuretravel {
-    background-image: url("../images/adventure_images/running.jpg");
+.background-image-comforttravel {
+    background-image: url("../images/comfort_images/cottage.jpg");
     width: 100%;
     height: 100%;
     padding-bottom: 150px;
@@ -160,7 +160,7 @@ body {
 }
 
 .background-image-comfort {
-    background-image: url("../images/comfort_images/country.jpg");
+    background-image: url("../images/comfort_images/window.jpg");
     width: 100%;
     height: 100%;
     padding-bottom: 320px;
@@ -172,7 +172,7 @@ body {
 }
 
 .background-image-country {
-    background-image: url("../images/country_images/window.jpg");
+    background-image: url("../images/country_images/country.jpg");
     width: 100%;
     height: 100%;
     padding-bottom: 320px;
