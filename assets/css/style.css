@@ -218,11 +218,7 @@ img.coast {
     min-height: 500px;
 }
 
-/*---- video ---*/
 
-iframe {
-    margin: 0 auto;
-}
 
 /*---- jquery ----- */
 
@@ -237,6 +233,32 @@ iframe {
 .hidetext-comfort {
     display: none;
 }
+
+.hidetext-day1 {
+    display: none;
+}
+
+.hidetext-day2 {
+    display: none;
+}
+
+.hidetext-day3 {
+    display: none;
+}
+
+.hidetext-day4 {
+    display: none;
+}
+
+.hidetext-day5 {
+    display: none;
+}
+
+.hidetext-day6 {
+    display: none;
+}
+
+
 
 
 /*---- Google Maps API */
