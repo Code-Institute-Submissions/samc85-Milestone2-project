@@ -1,44 +1,16 @@
-//function initMap() {
-  // The location of Uluru
-  //var uluru = {lat: -25.344, lng: 131.036};
-  //var lakes = {lat:54.4609, lng: 3.0886};
-  // The map, centered at Uluru
-
-  //var map = new google.maps.Map(
-    //  document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-
-  //var map = new.google.maps.Map(
-    //  document.getElementById('mapadventure'), {zoom: 4, center: lakes});
-  
-
-  //var marker = new google.maps.Marker({position: uluru, map: map});
-  //var marker2 = new google.maps.Marker({position: lakes, mapadventure: mapadventure});
-
-  //}
-
-
-function myMap() {
-var map = {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-};
-
-var map = new google.maps.Map(document.getElementById("mapcountry"),map);
-
-};
-
-function myMap1() {
-
-
-  var map2 = new google.maps.Map(document.getElementById('mapadventure'), {
+ var map1 = new google.maps.Map(document.getElementById('mapadventure'), {
           zoom: 3,
           center: {lat: -28.024, lng: 140.887}
         });
 
- var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        // Create an array of alphabetical characters used to label the markers.
+        var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-  var markers = locations.map(function(location, i) {
+        // Add some markers to the map.
+        // Note: The code uses the JavaScript Array.prototype.map() method to
+        // create an array of markers based on a given "locations" array.
+        // The map() method here has nothing to do with the Google Maps API.
+        var markers1 = locations.map(function(location, i) {
           return new google.maps.Marker({
             position: location,
             label: labels[i % labels.length]
@@ -46,11 +18,11 @@ function myMap1() {
         });
 
         // Add a marker clusterer to manage the markers.
-        var markerCluster = new MarkerClusterer(map, markers,
+        var markerCluster1 = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
       }
-
-        var locations = [
+      var locations = [
+           var locations = [
         {lat: -31.563910, lng: 147.154312},
         {lat: -33.718234, lng: 150.363181},
         {lat: -33.727111, lng: 150.371124},
@@ -75,38 +47,3 @@ function myMap1() {
         {lat: -42.735258, lng: 147.438000},
         {lat: -43.999792, lng: 170.463352}
       ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$.ajax({
-        url: "https://api.weatherunlocked.com/api/current/51.5,-0.1?app_id={APP_ID}&app_key={APP_KEY}",
-        type: "GET",
-        success: function (parsedResponse, statusText, jqXhr) {
-
-            console.log(parsedResponse);
-
-        },
-        error: function (error) {
-
-            console.log(error);
-        }
-    });
