@@ -2,13 +2,20 @@
 
         
 function myMap1() {
-    var map = new google.maps.Map(document.getElementById("mapadventure"), {
+    var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
         center: {
             lat: 46.619261,
             lng: -33.134766
+        },
+        mapTypeControl: true,
+        mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+        mapTypeIds: ["hikes", "cycle", "spa's", "attractions"]
         }
     });
+
+
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
