@@ -1,16 +1,11 @@
-
-  
-       
-        // Create an array of alphabetical characters used to label the markers.
-        
-        function initMap() {
+function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
-         center: {lat: 54.603123, lng: -3.134850},
-    });
-    let bikeLayer = new google.maps.BicyclingLayer();
-            bikeLayer.setMap(map);
+        center: {
+            lat: 46.619261,
+            lng: -33.134766
         }
+    });
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -28,4 +23,8 @@
     });
 
     var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+
+     var bikeLayer = new google.maps.BicyclingLayer();
+  bikeLayer.setMap(map);
+}
 
