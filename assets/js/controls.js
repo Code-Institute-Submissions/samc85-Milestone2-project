@@ -5,15 +5,15 @@ $(document).ready(function(){
   });
 
    $(".hide-comfort").click(function(){
-    $(".hidetext-comfort, .hide-gallery").toggle();
+    $(".hidetext-comfort, .hide-gallery-comfort").toggle();
   });
 
   $(".hide-adventure").click(function(){
-    $(".hidetext-adventure, .hide-gallery").toggle();
+    $(".hidetext-adventure, .hide-gallery-adventure").toggle();
   });
 
   $(".hide-country").click(function(){
-    $(".hidetext-country, .hide-gallery").toggle();
+    $(".hidetext-country, .hide-gallery-country").toggle();
   });
 
   $(".hide-day1").click(function(){
