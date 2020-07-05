@@ -11,10 +11,9 @@ function myMap1() {
         mapTypeControl: true,
         mapTypeControlOptions: {
         style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-        mapTypeIds: ["hikes", "cycle", "spa's", "attractions"]
+        mapTypeIds: ["roadmap","terrain"]
         }
     });
-
 
 
     var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
