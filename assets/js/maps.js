@@ -1,9 +1,12 @@
 function initMap() {
 
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 3,
-          center: {lat: -28.024, lng: 140.887}
+          zoom: 10,
+          center: {lat: 54.603123, lng: -3.134850}
         });
+
+         var bikeLayer = new google.maps.BicyclingLayer();
+            bikeLayer.setMap(map);
 
         // Create an array of alphabetical characters used to label the markers.
         var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
