@@ -167,8 +167,8 @@ body {
     background-image: url("../images/comfort_images/countryroad.jpg");
     width: 100%;
     height: 100%;
-    padding-bottom: 240px;
-    padding-top: 180px;
+    padding-bottom: 450px;
+    padding-top: 450px;
     background-size: cover;
     display: inline-block;
     background-position: center;
@@ -179,7 +179,8 @@ body {
     background-image: url("../images/comfort_images/window.jpg");
     width: 100%;
     height: 100%;
-    padding-bottom: 710px;
+    padding-bottom: 180px;
+    padding-top: 240px;
     background-size: cover;
     display: inline-block;
     color: white;
@@ -379,6 +380,26 @@ img.coast {
     height: 400px;
     background-color: grey;
 }
+
+
+/* font awesome styling. ------------ */
+
+.fa-map-signs {
+    color: brown;
+}
+
+.fa-calendar-alt {
+    color: slategrey;
+}
+
+.fa-couch {
+    color: burlywood;
+}
+
+.fa-tree {
+    color: green;
+}
+
 
 
 
