@@ -6,6 +6,7 @@ body {
     margin: 0;
     /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
     font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(#ffffff,#f2fcfe,#ffffff);
 }
 
 /* Navbar 
@@ -398,6 +399,10 @@ img.coast {
 
 .fa-tree {
     color: green;
+}
+
+.fa-road {
+    color: slategrey;
 }
 
 
