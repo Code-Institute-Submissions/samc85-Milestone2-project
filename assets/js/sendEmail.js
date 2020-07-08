@@ -1,8 +1,9 @@
 function sendMail(contactForm) {
-    emailjs.send("outlook", "resume", {
+    emailjs.send("outlook", "milestone2", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
-        "project_request": contactForm.projectsummary.value
+        "package_type": contactForm.packagetype.value,
+        "package_request": contactForm.packagerequest.value
     })
     .then(
         function(response) {

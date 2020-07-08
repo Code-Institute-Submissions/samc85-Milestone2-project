@@ -8,7 +8,12 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_LotgXUKrc88pOhpPCYgaH");
+   })();
+</script>
 
 <title>Choose your next...</title>
 </head>
@@ -207,10 +212,12 @@
                     required />
                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email"
                     required />
-                    <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                    <input type="text" name="packagetype" id="packagetype" class="form-control" placeholder="Adventure, comfort or country?"
+                    required />
+                    <textarea rows="5" name="packagerequest" id="packagerequest" class="form-control" placeholder="Request more info here..." required></textarea>
                     <div class="form-row text-center">
                         <div class="col">
-                            <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            <button type="submit" class="btn btn-secondary">Send us an email and we will get back to you</button>
                         </div>
                     </div>
                 </form>
@@ -268,17 +275,15 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
-
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=myMap">
     </script>
-
 <script src="assets/js/maps.js"></script>
-
  <script async defer 
  src ="https://api.weatherunlocked.com/api/current/40.71,-74.00?app_id=6d7b8b19&app_key=3a166867184258fb2dfcb83735b2fac9">
  </script>
  <script src="assets/js/controls.js"></script>
+<script src="assets/js/sendEmail.js"></script>
 
 </body>
 </html>
