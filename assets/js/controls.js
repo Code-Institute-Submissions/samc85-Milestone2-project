@@ -35,10 +35,26 @@ $("#hide-comfort").click(function(){
 
 // function to calculate the result of the survey
 
-$("#relax").click(function(){
-  alert("The paragraph was clicked.");
+
+   
+    $("#explore").click(function(){
+    alert("Time to explore");
 });
 
+  $("#relax").click(function(){
+    alert("Time to explore");
+});
+    
+
+
+
+
+//$("#relax").click(function(){
+  //alert("The paragraph was clicked.");
+//});
+
+
+   
 
 
 
