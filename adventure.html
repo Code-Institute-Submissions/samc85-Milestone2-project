@@ -88,10 +88,10 @@
 </div>
 
 
-
                     </div>
                     <div class="col-md-5">
-                        <div id="map" ></div>
+              
+    <div id="map"></div>
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@
                
                 <hr class="feature-space" />
              
-<div id="adventure" ></div>
+
     
         <div class ="container">
         
@@ -109,7 +109,8 @@
    
     <div class="card-body">
       <h5 class="card-title">Day 1 and 2</h5>
-      
+      <p> Welcome to days 3 and 4 where you will scale some of the peaks of the Lake District. </p>
+        
       
     </div>
     <div class="card-footer">
@@ -121,8 +122,10 @@
       
       <h4 class="card-title">Days 3 and 4</h4>
       <p> Welcome to days 3 and 4 where you will scale some of the peaks of the Lake District. </p>
+      <input onclick="clearMarkers();" type="button" value="Hide Markers" />
+      <input onclick="showMarkers();" type="button" value="Show All Markers" />
       <br>
-      <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Hiking" data-content="Over the two days you will explore and hike through the following: <br> Ambleside">
+      <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" title="Hiking" data-content="Over the two days you will explore and hike through the following: <br> Ambleside" >
   Activities
 </button>
     </div>
@@ -135,14 +138,19 @@
     <div class="card-body">
       <h5 class="card-title">Day 5 and 6</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. </p>
+        <input onclick="clearMarkers();" type="button" value="Hide Markers" />
+      <input onclick="showMarkers();" type="button" value="Show All Markers" />
     </div>
+
     <div class="card-footer">
      
     </div>
+
+
+
   </div>
 </div>
-        
-        
+   
         
         </div>
 
@@ -194,6 +202,8 @@
 
          <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=initMap2&libraries=places&v=weekly"
+         defer></script>
 
         
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
