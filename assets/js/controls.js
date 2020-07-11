@@ -37,11 +37,21 @@ $("#hide-comfort").click(function(){
 
 
    
-    $("#explore").click(function(){
-    alert("Time to explore");
+$("#explore").click(function(){
+    $(".pre-result").hide();
 });
 
+$("#explore").click(function(){
+    $(".post-result").show();
+});
+
+
   $("#relax").click(function(){
+    alert("Time to explore");
+});
+    
+
+ $("#sightsee").click(function(){
     alert("Time to explore");
 });
     
