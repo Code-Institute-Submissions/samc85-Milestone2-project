@@ -436,3 +436,19 @@ button[type="submit"] {
   left: 50%;
   margin-left: -80px;
 }
+
+
+
+/* quiz */
+
+#submit {
+  background: green;
+}
+#reset {
+  background: red;
+}
+#answer {
+  border: 1px dashed #ccc;
+  background: #eee;
+  padding: 10px;
+}
