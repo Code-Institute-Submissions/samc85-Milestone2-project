@@ -117,8 +117,8 @@ body {
     opacity: 1;
 }
 
-.background-image-discover {
-    background-image: url("../images/index_images/discover.jpg");
+.background-image-country {
+    background-image: url("../images/country_images/cave.jpg");
     width: 100%;
     height: 100%;
     padding-top: 180px;
@@ -128,32 +128,7 @@ body {
     display: inline-block;
     color: white;
     margin: 0 auto;
-}
-
-.background-image-adventure {
-    background-image: url("../images/adventure_images/adventurehero.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 350px;
-    padding-top: 350px;
-    background-size: cover;
-    display: inline-block;
-    color: white;
-    background-position: center;
-}
-
-
-
-.background-image-lakes {
-    background-image: url("../images/discover_images/lake.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 350px;
-    padding-top: 350px;
-    background-size: cover;
-    display: inline-block;
-    color: white;
-    background-position: center;
+    
 }
 
 
@@ -170,43 +145,33 @@ body {
 
 
 .background-image-comforttravel {
-    background-image: url("../images/comfort_images/countryroad.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 350px;
-    padding-top: 350px;
-    background-size: cover;
-    display: inline-block;
-    background-position: center;
-}
-
-
-.background-image-comfort {
-    background-image: url("../images/comfort_images/window.jpg");
+    background-image: url("../images/comfort_images/water.jpg");
     width: 100%;
     height: 100%;
     padding-bottom: 180px;
-    padding-top: 180px;
+    padding-top:  180px;
     background-size: cover;
     display: inline-block;
-    color: white;
     background-position: center;
 }
 
-.background-image-country {
-    background-image: url("../images/country_images/country.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 350px;
-    padding-top: 350px;
-    background-size: cover;
-    display: inline-block;
+.image-text {
     color: white;
-    background-position: center;
+    position: absolute;
+    float: left;
+    padding-left: 12px;
+    padding-top: 48px;
 }
+
+
+
 
 .image-radius {
     padding-top: 24px;
+}
+
+.coast {
+    border-radius: 50%;
 }
 
 .featurette-heading {
@@ -292,19 +257,6 @@ body {
     background-color: red;
 }
 
-/*-- carousel.  */
-
-.carousel .carousel-item {
-    height: 500px;
-}
-
-.carousel-item img {
-    position: absolute;
-    object-fit: cover;
-    top: 0;
-    left: 0;
-    min-height: 500px;
-}
 
 
 
@@ -335,13 +287,6 @@ body {
     display: none;
 }
 
-.image-text {
-    color: white;
-    position: absolute;
-    float: right;
-    padding-left: 12px;
-    padding-top: 24px;
-}
 
 
 
