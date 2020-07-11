@@ -8,12 +8,29 @@ $(function () {
 })
 
 
-$("#show").click(function(){
+$("#show-adventure").click(function(){
   $("#adventure-package").hide();
 });
 
-$("#hide").click(function(){
+$("#hide-adventure").click(function(){
   $("#adventure-package").show();
+});
+
+
+$("#show-country").click(function(){
+  $("#country-package").hide();
+});
+
+$("#hide-country").click(function(){
+  $("#country-package").show();
+});
+
+$("#show-comfort").click(function(){
+  $("#comfort-package").hide();
+});
+
+$("#hide-comfort").click(function(){
+  $("#comfort-package").show();
 });
 
 
