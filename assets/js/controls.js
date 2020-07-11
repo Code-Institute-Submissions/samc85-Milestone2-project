@@ -8,7 +8,13 @@ $(function () {
 })
 
 
+$("#show").click(function(){
+  $("#adventure-package").hide();
+});
 
+$("#hide").click(function(){
+  $("#adventure-package").show();
+});
 
 
 

@@ -1,44 +1,47 @@
 
 
+var adventure = [
+        {
+            name: "National Park",
+            lat: 54.4609, 
+            lng: -3.0886
+        },
 
+        {
+            name: "Ambleside",
+            lat: 54.4287,
+            lng: -2.9613
+        }
+];
 
-
-
-
-
-// In the following example, markers appear when the user clicks on the map.
-// The markers are stored in an array.
-///The user can then click an option to hide, show or delete the markers.
-var map;
 var markers = [];
 
+var London = {lat: 54.5409, lng: -3.0886};
 
+console.log(adventure);
 
 function initMap() {
-  let Lakes = { lat: 54.4609, lng: -3.0886};
-  let Ambleside = { lat: 54.4287, lng: -2.9613};
 
   map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
-    center: Lakes,
+    center: London,
     mapTypeId: "roadmap"
   });
 
 
   // Adds a marker at the center of the map.
-  addMarker(Lakes);
-  addMarker(Ambleside);
+  addMarker(location);
   
 
 }
 
 // Adds a marker to the map and push to the array.
-function addMarker(location) {
-  let marker = new google.maps.Marker({
+function addMarker(adventure) {
+  let markers = new google.maps.Marker({
     position: location,
     map: map
   });
-  markers.push(marker);
+  markers.push(adventure);
 }
 
 // This event listener will call addMarker() when the map is clicked.
@@ -47,11 +50,10 @@ function addMarker(location) {
   });
 
 
-
 // Sets the map on all markers in the array.
 function setMapOnAll(map) {
-  for (var i = 0; i < markers.length; i++) {
-    markers[i].setMap(map);
+  for (var i = 0; i < adventure.length; i++) {
+    adventure[i].setMap(map);
   }
 }
 
@@ -63,5 +65,4 @@ function clearMarkers() {
 // Shows any markers currently in the array.
 function showMarkers() {
   setMapOnAll(map);
-}
-
+};
