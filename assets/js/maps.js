@@ -1,132 +1,45 @@
 
-    var map;
-    var service;
-    var infowindow;
+
+
 
 function initMap() {
 
-  let park = new google.maps.LatLng(54.6013, -3.1347);
-  infowindow = new google.maps.InfoWindow();
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: park,
-    zoom: 10
-  });
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 3,
+          center: {lat: -28.024, lng: 140.887}
+        });
 
-  let request = {
-    query: "Lake District National Park",
-    fields: ["name", "geometry"]
-  };
+        var map = new google.maps.Map(document.getElementById('adventure'), {
+          zoom: 8,
+          center: {lat: -28.024, lng: 140.887}
+        });
 
-  service = new google.maps.places.PlacesService(map);
-
-  service.findPlaceFromQuery(request, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      for (var i = 0; i < results.length; i++) {
-        createMarker(results[i]);
-      }
-
-      map.setCenter(results[0].geometry.location);
     }
-  });
-}
+        /*--
+ var labels = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-function createMarker(place) {
-  let marker = new google.maps.Marker({
-    map: map,
-    position: place.geometry.location
-  });
+        // Add some markers to the map.
+        // Note: The code uses the JavaScript Array.prototype.map() method to
+        // create an array of markers based on a given "locations" array.
+        // The map() method here has nothing to do with the Google Maps API.
+        var markers = locations.map(function(location, i) {
+          return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+          });
+        });
 
-  google.maps.event.addListener(marker, "click", function() {
-    infowindow.setContent(place.name);
-    infowindow.open(map, this);
-  });
-}
-
-
-
-
-
-/*-----   map for country page  ------*/
-
-
-function initMap1() {
-  let keswick = new google.maps.LatLng(54.547512, 3.158908);
-  infowindow = new google.maps.InfoWindow();
-  map = new google.maps.Map(document.getElementById("mapcountry"), {
-    center: keswick,
-    zoom: 10
-  });
-
-  let request = {
-    query: "Keswick",
-    fields: ["name", "geometry"]
-  };
-
-  service = new google.maps.places.PlacesService(map);
-
-  service.findPlaceFromQuery(request, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      for (var i = 0; i < results.length; i++) {
-        createMarker1(results[i]);
+        // Add a marker clusterer to manage the markers.
+        var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
       }
+      var locations = [
+        {lat: -31.563910, lng: 147.154312},
+        {lat: -33.718234, lng: 150.363181},
+        {lat: -33.727111, lng: 150.371124},
+        {lat: -33.848588, lng: 151.209834},
+        {lat: -33.851702, lng: 151.216968},
+        {lat: -34.671264, lng: 150.863657}
+      ]
 
-      map.setCenter(results[0].geometry.location);
-    }
-  });
-}
-
-function createMarker1(place) {
-  var marker = new google.maps.Marker({
-    map: map,
-    position: place.geometry.location
-  });
-
-  google.maps.event.addListener(marker, "click", function() {
-    infowindow.setContent(place.name);
-    infowindow.open(map, this);
-  });
-}
-
-
-
-/*-----   map for comfort page  ------*/
-
-
-function initMap2() {
-  let keswick = new google.maps.LatLng(54.547512, 3.158908);
-  infowindow = new google.maps.InfoWindow();
-  map = new google.maps.Map(document.getElementById("mapcomfort"), {
-    center: keswick,
-    zoom: 10
-  });
-
-  let request = {
-    query: "Grange Lake District",
-    fields: ["name", "geometry"]
-  };
-
-  service = new google.maps.places.PlacesService(map);
-
-  service.findPlaceFromQuery(request, function(results, status) {
-    if (status === google.maps.places.PlacesServiceStatus.OK) {
-      for (var i = 0; i < results.length; i++) {
-        createMarker1(results[i]);
-      }
-
-      map.setCenter(results[0].geometry.location);
-    }
-  });
-}
-
-function createMarker2(place) {
-  var marker = new google.maps.Marker({
-    map: map,
-    position: place.geometry.location
-  });
-
-  google.maps.event.addListener(marker, "click", function() {
-    infowindow.setContent(place.name);
-    infowindow.open(map, this);
-  });
-}
-
+--*/
