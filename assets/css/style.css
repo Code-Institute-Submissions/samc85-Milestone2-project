@@ -6,13 +6,12 @@ body {
     margin: 0;
     /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
     font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(darkgrey, white, darkgrey);
    
 }
 
 
-.contact-form {
-    background-image: linear-gradient(white, lightgrey);
-}
+
 
 /* Navbar 
 --------------------------------------------------- */
@@ -128,7 +127,6 @@ body {
     display: inline-block;
     color: white;
     margin: 0 auto;
-    
 }
 
 
@@ -150,6 +148,28 @@ body {
     height: 100%;
     padding-bottom: 180px;
     padding-top:  180px;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+.background-image-lakes {
+    background-image: url("../images/discover_images/lake.jpg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 240px;
+    padding-top:  240px;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
+}
+
+.background-image-quiz {
+    background-image: url("../images/comfort_images/elterwater.jpg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 240px;
+    padding-top:  240px;
     background-size: cover;
     display: inline-block;
     background-position: center;
@@ -443,4 +463,13 @@ button[type="submit"] {
 
 .post-result {
     display:none;
+}
+
+
+
+/* gallery. */
+
+.gallery {
+    width: 95%;
+    margin: 0 auto;
 }

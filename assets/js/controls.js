@@ -55,13 +55,9 @@ $("#explore").click(function(){
     alert("Time to explore");
 });
     
+//gallery images
 
 
-
-
-//$("#relax").click(function(){
-  //alert("The paragraph was clicked.");
-//});
 
 
    
