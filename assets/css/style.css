@@ -465,14 +465,15 @@ button[type="submit"] {
     font-weight: 600;
     font-size: 22px;
     word-spacing: 9px;
+    padding-left: 9px;
 }
 .answers {
     margin-bottom: 20px;
     padding: 12px;
     word-spacing: 9px;
     font-size: 24px;
-    text-indent: 3px;
-    
+    text-indent: 6px;
+    margin-left: 9px;
 }
 #submit{
     font-family: sans-serif;
