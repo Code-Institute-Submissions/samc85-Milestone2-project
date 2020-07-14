@@ -158,6 +158,167 @@ $(document).ready(function(){
   });
 });
 
+//------- discover gallery
+$(document).ready(function(){
+  $(".countryroad").click(function(){
+    $(".countryroad").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".countryroad-text").click(function(){
+    $(".countryroad-text").hide("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $(".countryroad-text").click(function(){
+    $(".countryroad").show("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".countryroad").click(function(){
+    $(".countryroad-text").show("slow");
+  });
+});
+
+//------
+$(document).ready(function(){
+  $(".water").click(function(){
+    $(".water").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".water-text").click(function(){
+    $(".water-text").hide("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $(".water-text").click(function(){
+    $(".water").show("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".water").click(function(){
+    $(".water-text").show("slow");
+  });
+});
+
+//------
+
+$(document).ready(function(){
+  $(".wrestling").click(function(){
+    $(".wrestling").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".wrestling-text").click(function(){
+    $(".wrestling-text").hide("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $(".wrestling-text").click(function(){
+    $(".wrestling").show("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".wrestling").click(function(){
+    $(".wrestling-text").show("slow");
+  });
+});
+
+//
+
+$(document).ready(function(){
+  $(".mine").click(function(){
+    $(".mine").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".mine-text").click(function(){
+    $(".mine-text").hide("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $(".mine-text").click(function(){
+    $(".mine").show("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".mine").click(function(){
+    $(".mine-text").show("slow");
+  });
+});
+
+//
+
+$(document).ready(function(){
+  $(".fairg").click(function(){
+    $(".fair").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".fair-text").click(function(){
+    $(".fair-text").hide("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $(".fair-text").click(function(){
+    $(".fair").show("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".fair").click(function(){
+    $(".fair-text").show("slow");
+  });
+});
+
+//
+
+$(document).ready(function(){
+  $(".spa").click(function(){
+    $(".spa").hide("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".spa-text").click(function(){
+    $(".spa-text").hide("slow");
+  });
+});
+
+
+$(document).ready(function(){
+  $(".spa-text").click(function(){
+    $(".spa").show("slow");
+  });
+});
+
+$(document).ready(function(){
+  $(".spa").click(function(){
+    $(".spa-text").show("slow");
+  });
+});
+
+
 //quiz
 
 

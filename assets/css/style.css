@@ -6,7 +6,7 @@ body {
     margin: 0;
     /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
     font-family: "Montserrat", sans-serif;
-    background-image: linear-gradient(darkgrey, white, darkgrey);
+   
    
 }
 
@@ -499,20 +499,86 @@ button[type="submit"] {
 .gallery {
     width: 95%;
     margin: 0 auto;
+
 }
 
 .arnside-text {
     display: none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
 }
 
 .bird-text {
     display: none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
 }
 
 .beach-text {
     display: none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
 }
 
 .bike-text {
     display: none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+
+.countryroad-text {
+    display:none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.water-text {
+    display:none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.wrestling-text {
+    display:none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.spa-text {
+    display:none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.mine-text {
+    display:none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+.fair-text {
+    display:none;
+    padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
 }
