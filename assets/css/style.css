@@ -165,7 +165,7 @@ body {
 }
 
 .background-image-quiz {
-    background-image: url("../images/comfort_images/elterwater.jpg");
+    background-image: url("../images/adventure_images/water.jpg");
     width: 100%;
     height: 100%;
     padding-bottom: 240px;
@@ -499,4 +499,20 @@ button[type="submit"] {
 .gallery {
     width: 95%;
     margin: 0 auto;
+}
+
+.arnside-text {
+    display: none;
+}
+
+.bird-text {
+    display: none;
+}
+
+.beach-text {
+    display: none;
+}
+
+.bike-text {
+    display: none;
 }
