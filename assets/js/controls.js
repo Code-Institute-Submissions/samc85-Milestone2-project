@@ -7,6 +7,56 @@ $(function () {
   })
 });
 
+// Country gallery
+$(".country-day1").click(function(){
+    $(".bath").hide();
+    $(".beach").hide();
+    $(".cartmel").hide();
+    $(".dogchase").hide();
+});
+
+$(".country-day1").click(function(){
+    $(".beach").show("slow");
+});
+
+$(".beach").click(function(){
+    $(".beach-text").slideToggle("slow");
+});
+
+
+
+$(".country-day2").click(function(){
+    $(".beach").hide();
+    $(".bath").hide();
+    $(".dogchase").hide();
+});
+
+$(".country-day2").click(function(){
+    $(".cartmel").show("slow");
+});
+
+$(".cartmel").click(function(){
+    $(".cartmel-text").slideToggle("slow");
+});
+
+
+
+$(".country-day3").click(function(){
+    $(".cartmel").hide();
+    $(".beach").hide();
+    $(".bath").hide();
+});
+
+$(".country-day3").click(function(){
+    $(".dogchase").show("slow");
+});
+
+$(".dogchase").click(function(){
+    $(".dogchase-text").slideToggle("slow");
+});
+
+
+
 $("#show-adventure").click(function(){
   $("#adventure-package").hide();
 });
