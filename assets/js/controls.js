@@ -10,23 +10,21 @@ $(function () {
 // Country gallery
 $(".country-day1").click(function(){
     $(".bath").hide();
-    $(".beach").hide();
+    $(".beachkite").hide();
     $(".cartmel").hide();
     $(".dogchase").hide();
 });
 
 $(".country-day1").click(function(){
-    $(".beach").show("slow");
+    $(".beachkite").show("slow");
 });
 
-$(".beach").click(function(){
-    $(".beach-text").slideToggle("slow");
+$(".beachkite").click(function(){
+    $(".beachkite-text").slideToggle("slow");
 });
-
-
 
 $(".country-day2").click(function(){
-    $(".beach").hide();
+    $(".beachkite").hide();
     $(".bath").hide();
     $(".dogchase").hide();
 });
@@ -39,11 +37,9 @@ $(".cartmel").click(function(){
     $(".cartmel-text").slideToggle("slow");
 });
 
-
-
 $(".country-day3").click(function(){
     $(".cartmel").hide();
-    $(".beach").hide();
+    $(".beachkite").hide();
     $(".bath").hide();
 });
 
@@ -55,7 +51,7 @@ $(".dogchase").click(function(){
     $(".dogchase-text").slideToggle("slow");
 });
 
-
+//-------------//
 
 $("#show-adventure").click(function(){
   $("#adventure-package").hide();
