@@ -51,7 +51,7 @@ $(".dogchase").click(function(){
     $(".dogchase-text").slideToggle("slow");
 });
 
-//-------------//
+//-----  Packages  --------//
 
 $("#show-adventure").click(function(){
   $("#adventure-package").hide();

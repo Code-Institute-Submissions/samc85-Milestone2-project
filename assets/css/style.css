@@ -1,605 +1,429 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-    margin: 0;
-    /*background-image:linear-gradient(#FFFFFF,#4B79A1); */
-    font-family: "Montserrat", sans-serif;
-   
-   
+/* GLOBAL STYLES -------------------------------------------------- */
+ body {
+     margin: 0;
+    /*background-image:linear-gradient(#FFFFFF,#4B79A1);
+     */
+     font-family: "Montserrat", sans-serif;
 }
-
-
-
-
-/* Navbar 
---------------------------------------------------- */
-
-.navbar {
-    opacity: 0.8;
+ .text-align {
+     text-align: center;
 }
-
-.navbar-brand {
-    color: black;
+ .image-radius {
+     padding-top: 24px;
 }
-
-.dropdown {
-    right: 5%;
+ .coast {
+     border-radius: 50%;
 }
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
+ .featurette-heading {
+     padding-left: 9px;
+     text-align: center;
+}
+ .feature-space {
+     margin: 30px;
+}
+/* Navbar --------------------------------------------------- */
+ .navbar {
+     opacity: 0.8;
+}
+ .navbar-brand {
+     color: black;
+}
+ .dropdown {
+     right: 5%;
+}
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
+ .marketing .col-lg-4 {
+     margin-bottom: 1.5rem;
+     text-align: center;
 }
-.marketing h2 {
-    font-weight: 400;
+ .marketing h2 {
+     font-weight: 400;
 }
-.marketing .col-lg-4 p {
-    margin-right: 0.75rem;
-    margin-left: 0.75rem;
+ .marketing .col-lg-4 p {
+     margin-right: 0.75rem;
+     margin-left: 0.75rem;
 }
-
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+/* Featurettes ------------------------- */
+ .featurette-divider {
+     margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
 }
-
-/* hero image */
-
-.hero-image {
-    background-image: url("../images/index_images/discoverlakes.jpg");
-    width: 100%;
-    height: 100%;
-    padding-top: 400px;
-    padding-bottom: 400px;
-    background-size: cover;
-    display: inline-block;
-    color: white;
+/* index page */
+ .hero-image {
+     background-image: url("../images/index_images/discoverlakes.jpg");
+     width: 100%;
+     height: 100%;
+     padding-top: 400px;
+     padding-bottom: 400px;
+     background-size: cover;
+     display: inline-block;
+     color: white;
 }
-
-.text-align {
-    text-align: center;
+ .hero-text {
+     text-align: center;
+     font-weight: bold;
+     font-size: 32pt;
 }
-
-.hero-text {
-    text-align: center;
-    font-weight: bold;
-    font-size: 32pt;
+ .about-text {
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     font-size: 32pt;
+     margin: 0 auto;
+     padding-right: 21px;
+     padding-bottom: 42px;
 }
-
-.about-text {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 32pt;
-    margin: 0 auto;
-    padding-right: 21px;
-    padding-bottom: 42px;
+ .what-text {
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     font-size: 32pt;
+     margin: 0 auto;
+     padding-right: 21px;
+     padding-bottom: 42px;
 }
-
-.discover-text {
-    color: black;
-    text-align: center;
-    font-weight: 700;
-    font-size: 32pt;
-    padding-bottom: 42px;
+ .background-image-what {
+     background-image: url("../images/index_images/whatwedo.jpg");
+     width: 100%;
+     height: 50%;
+     padding-top: 180px;
+     padding-bottom: 180px;
+     background-position: center;
+     background-size: cover;
+     display: inline-block;
+     color: white;
+     margin: 0 auto;
+     opacity: 1;
 }
-
-.what-text {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: 32pt;
-    margin: 0 auto;
-    padding-right: 21px;
-    padding-bottom: 42px;
+/*----- Discover Page ------*/
+ .discover-text {
+     color: black;
+     text-align: center;
+     font-weight: 700;
+     font-size: 32pt;
+     padding-bottom: 42px;
 }
-
-.background-image-what {
-    background-image: url("../images/index_images/whatwedo.jpg");
-    width: 100%;
-    height: 50%;
-    padding-top: 180px;
-    padding-bottom: 180px;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    color: white;
-    margin: 0 auto;
-    opacity: 1;
+ .background-image-lakes {
+     background-image: url("../images/discover_images/lake.jpg");
+     width: 100%;
+     height: 100%;
+     padding-bottom: 240px;
+     padding-top: 240px;
+     background-size: cover;
+     display: inline-block;
+     background-position: center;
 }
-
-.background-image-country {
-    background-image: url("../images/country_images/cave.jpg");
-    width: 100%;
-    height: 100%;
-    padding-top: 180px;
-    padding-bottom: 180px;
-    background-position: center;
-    background-size: cover;
-    display: inline-block;
-    color: white;
-    margin: 0 auto;
+ .background-image-country {
+     background-image: url("../images/country_images/cave.jpg");
+     width: 100%;
+     height: 100%;
+     padding-top: 180px;
+     padding-bottom: 180px;
+     background-position: center;
+     background-size: cover;
+     display: inline-block;
+     color: white;
+     margin: 0 auto;
 }
-
-
-.background-image-adventuretravel {
-    background-image: url("../images/index_images/colours.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 180px;
-    padding-top: 180px;
-    background-size: cover;
-    display: inline-block;
-    background-position: center;
+/*-- Quiz page -- */
+ .background-image-quiz {
+     background-image: url("../images/adventure_images/water.jpg");
+     width: 100%;
+     height: 100%;
+     padding-bottom: 240px;
+     padding-top: 240px;
+     background-size: cover;
+     display: inline-block;
+     background-position: center;
 }
-
-
-.background-image-comforttravel {
-    background-image: url("../images/comfort_images/water.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 180px;
-    padding-top:  180px;
-    background-size: cover;
-    display: inline-block;
-    background-position: center;
-}
-
-.background-image-lakes {
-    background-image: url("../images/discover_images/lake.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 240px;
-    padding-top:  240px;
-    background-size: cover;
-    display: inline-block;
-    background-position: center;
-}
-
-.background-image-quiz {
-    background-image: url("../images/adventure_images/water.jpg");
-    width: 100%;
-    height: 100%;
-    padding-bottom: 240px;
-    padding-top:  240px;
-    background-size: cover;
-    display: inline-block;
-    background-position: center;
-}
-
-.image-text {
-    color: white;
-    position: absolute;
-    float: left;
-    padding-left: 12px;
-    padding-top: 48px;
-}
-
-
-
-
-.image-radius {
-    padding-top: 24px;
-}
-
-.coast {
-    border-radius: 50%;
-}
-
-.featurette-heading {
-    padding-left: 9px;
-    text-align: center;
-}
-
-.feature-space {
-    margin: 30px;
-}
-
-.background-color {
-    background-image: lightgrey;
-}
-
-
-/*--- image gallery ----*/
-
-.row-gallery {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
 /* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  
-  padding: 0 4px;
+ .column {
+     flex: 25%;
+     padding: 0 4px;
 }
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
+ .column img {
+     margin-top: 8px;
+     vertical-align: middle;
+     width: 100%;
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-
-
---------------------------------------------------- */ h1,
-.packages {
-    text-align: center;
-    
-}
-
-.adv-pack {
-    border-bottom: 2pt solid red;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.card-body {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.card {
-    border-radius: 25px 25px 0px 0px;
-    border: 1pt solid black; 
-}
-
-.package-img-adv {
-    border-radius: 50%;
-}
-
-.card-footer {
-    background-color: red;
-}
-
-
-
-
-/*---- jquery ----- */
-
-
-
-/*---- Google Maps API */
-
-/* Set the size of the div element that contains the map */
-
-#map {
-    width: 100%;
-    height: 400px;
-    background-color: grey;
-}
-
-
-#adventure-package {
-    display: none;
-}
-
-#country-package {
-    display: none;
-}
-
-#comfort-package {
-    display: none;
-}
-
-
-
-
-/*---- weather api.   -----*/
-
-
-.weather-container {
-    background: #ccc;
-    text-align: center;
-}
-
-.weather {
-    font-size: 22px;
-    margin: 0;
-}
-
-.temp {
-    font-size: 60px;
-    margin: 0;
-    font-weight: bold;
-}
-
-.temp_min {
-    font-size: 22px;
-    margin: 0;
-}
-
-.temp_max {
-    font-size: 22px;
-    margin: 0;
-}
-
-
-
-
-
-
-
-/* font awesome styling. ------------ */
-
-.fa-map-signs {
-    color: brown;
-}
-
-.fa-calendar-alt {
-    color: slategrey;
-}
-
-.fa-couch {
-    color: burlywood;
-}
-
-.fa-tree {
-    color: green;
-}
-
-.fa-road {
-    color: slategrey;
-}
-
-
-
-
-
-/* Footer
--------------------------------------------------- */
-
-footer {
-    opacity: 0.7;
-    color: white;
-    background-image: linear-gradient(#000000, #232526, #000000);
-    border-top: 8pt solid black;
-}
-
-/* RESPONSIVE CSS
--------------------------------------------------- */
-
-@media (min-width: 40em) {
+/* RESPONSIVE CSS -------------------------------------------------- */
+ @media (min-width: 40em) {
     /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.4;
+     .carousel-caption p {
+         margin-bottom: 1.25rem;
+         font-size: 1.25rem;
+         line-height: 1.4;
     }
-
-    .featurette-heading {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 7rem;
+     .featurette-heading {
+         font-size: 50px;
     }
 }
-
-@media (max-width: 768px) {
-    .carousel .carousel-inner {
-        height: auto;
+ @media (min-width: 62em) {
+     .featurette-heading {
+         margin-top: 7rem;
     }
 }
-
-
-
+ @media (max-width: 768px) {
+     .carousel .carousel-inner {
+         height: auto;
+    }
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 800px) {
+     .column {
+         flex: 50%;
+         max-width: 50%;
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+     .column {
+         flex: 100%;
+         max-width: 100%;
+    }
+}
+/*--- Packages ----*/
+ h1, .packages {
+     text-align: center;
+}
+ .card-body {
+     margin: 0 auto;
+     text-align: center;
+}
+ .card {
+     border-radius: 25px 25px 0px 0px;
+     border: 1pt solid black;
+}
+ .package-img-adv {
+     border-radius: 50%;
+}
+ .card-footer {
+     background-color: red;
+}
+/*---- Google Maps API */
+/* Set the size of the div element that contains the map */
+ #map {
+     width: 100%;
+     height: 400px;
+     background-color: grey;
+}
+/*---- Jquery Packages ---*/
+ #adventure-package {
+     display: none;
+}
+ #country-package {
+     display: none;
+}
+ #comfort-package {
+     display: none;
+}
+/*---- weather api. -----*/
+ .weather-container {
+     background: #ccc;
+     text-align: center;
+}
+ .weather {
+     font-size: 22px;
+     margin: 0;
+}
+ .temp {
+     font-size: 60px;
+     margin: 0;
+     font-weight: bold;
+}
+ .temp_min {
+     font-size: 22px;
+     margin: 0;
+}
+ .temp_max {
+     font-size: 22px;
+     margin: 0;
+}
+/* font awesome styling. ------------ */
+ .fa-map-signs {
+     color: brown;
+}
+ .fa-calendar-alt {
+     color: slategrey;
+}
+ .fa-couch {
+     color: burlywood;
+}
+ .fa-tree {
+     color: green;
+}
+ .fa-road {
+     color: slategrey;
+}
+/* Footer -------------------------------------------------- */
+ footer {
+     opacity: 0.7;
+     color: white;
+     background-image: linear-gradient(#000000, #232526, #000000);
+     border-top: 8pt solid black;
+}
 /*------------------------------------------------------ Contact Form */
-
-.contact-heading{
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 20px;
+ .contact-heading{
+     font-family: "Exo", sans-serif;
+     font-weight: 300;
+     margin-top: 25px;
+     margin-bottom: 20px;
 }
-
-.center-form{
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+ .center-form{
+     padding-top: 10px;
+     margin: 0 auto;
+     max-width: 70%;
 }
-
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
+ button[type="submit"] {
+     margin-top: 15px;
+     margin-bottom: 20px;
+     color: #fafafa;
+     background-color: #e84610;
 }
-
-
 /* Popup container */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
+ .popup {
+     position: relative;
+     display: inline-block;
+     cursor: pointer;
 }
-
 /* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
+ .popup .popuptext {
+     visibility: hidden;
+     width: 160px;
+     background-color: #555;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 8px 0;
+     position: absolute;
+     z-index: 1;
+     bottom: 125%;
+     left: 50%;
+     margin-left: -80px;
 }
-
-
-
 /* quiz */
-
-#wrapper {
-  width: 600px;
-  margin: 0 auto;
-  background: white;
-  padding: 10px 15px;
-  border-radius: 10px;
+ #wrapper {
+     width: 600px;
+     margin: 0 auto;
+     background: white;
+     padding: 10px 15px;
+     border-radius: 10px;
 }
-.input-quiz {
-  margin: 5px 10px;
+ .input-quiz {
+     margin: 5px 10px;
 }
-
-#submit-quiz {
-  background: green;
-  padding: 12px;
+ #submit-quiz {
+     background: green;
+     padding: 12px;
 }
-#reset {
-  background: red;
-  padding: 12px;
+ #reset {
+     background: red;
+     padding: 12px;
 }
-#answer {
-  border: 1px dashed #ccc;
-  background: #eee;
-  padding: 10px;
+ #answer {
+     border: 1px dashed #ccc;
+     background: #eee;
+     padding: 10px;
 }
-
-
-
 /* gallery. */
-
-.gallery {
-    width: 95%;
-    margin: 0 auto;
-
+/*--- image gallery ----*/
+ .row-gallery {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0 4px;
 }
-
-.arnside-text {
-    display: none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .gallery {
+     width: 95%;
+     margin: 0 auto;
 }
-
-.bird-text {
-    display: none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .arnside-text {
+     display: none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.beach-text {
-    display: none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .bird-text {
+     display: none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.bike-text {
-    display: none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .beach-text {
+     display: none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-
-.countryroad-text {
-    display:none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .bike-text {
+     display: none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.water-text {
-    display:none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .countryroad-text {
+     display:none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.wrestling-text {
-    display:none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .water-text {
+     display:none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.spa-text {
-    display:none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .wrestling-text {
+     display:none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.mine-text {
-    display:none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .spa-text {
+     display:none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.fair-text {
-    display:none;
-    padding: 5px;
-  text-align: center;
-  background-color: #e5eecc;
-  border: solid 1px #c3c3c3;
+ .mine-text {
+     display:none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-
-/*--------- */
-
-.beachkite {
-    display: none;
+ .fair-text {
+     display:none;
+     padding: 5px;
+     text-align: center;
+     background-color: #e5eecc;
+     border: solid 1px #c3c3c3;
 }
-
-.beachkite-text {
-    display: none;
+/*----- jquery gallery ---- */
+ .beachkite {
+     display: none;
 }
-
-.cartmel {
-    display: none;;
+ .beachkite-text {
+     display: none;
 }
-
-.cartmel-text {
-    display: none;
+ .cartmel {
+     display: none;
+    ;
 }
-
-.dogchase {
-    display: none;
+ .cartmel-text {
+     display: none;
 }
-
-.dogchase-text {
-    display: none;
+ .dogchase {
+     display: none;
 }
+ .dogchase-text {
+     display: none;
+}
+ 
