@@ -461,35 +461,35 @@ button[type="submit"] {
 
 /* quiz */
 
-.question{
-    font-weight: 600;
-    font-size: 22px;
-    word-spacing: 9px;
-    padding-left: 9px;
+#wrapper {
+  width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
-.answers {
-    margin-bottom: 20px;
-    padding: 12px;
-    word-spacing: 9px;
-    font-size: 24px;
-    text-indent: 6px;
-    margin-left: 9px;
+input {
+  margin: 5px 10px;
 }
-#submit{
-    font-family: sans-serif;
-    font-size: 20px;
-    background-color: #297;
-    color: #fff;
-    border: 0px;
-    border-radius: 3px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
+button {
+  font-size: 18px;
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  border-bottom: 3px solid #333;
 }
-
-
-#quiz {
-    padding: 9px;
+#submit {
+  background: green;
+}
+#reset {
+  background: red;
+}
+#answer {
+  border: 1px dashed #ccc;
+  background: #eee;
+  padding: 10px;
 }
 
 

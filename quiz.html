@@ -63,49 +63,110 @@
 
               <hr class="featurette-divider">
         <div class="row featurette">
-            <div class= "col-lg-3">
+            <div class= "col-lg-6">
                 
-                <div>
-                <img src="assets/images/adventure_images/running.jpg" height= "180" width= "180" style="border-radius:50%;">
-                </div>
-                <div class= "text-align">
-                    <button class="true">Like</button>
-                    <button class="false">Dislike</button>
-                    <p class="submit">...</p>
-               </div>
+        <div id="wrapper">
+  <h1>What kind of computer scientist are you?</h1>
+  <p>Take this questionnaire to find out!</p>
+  
+  <form id="quiz">
+    <!-- Question 1 -->
+    <h2>What gets you the most excited?</h2>
+    <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+    <!-- The value is which answer the choice corresponds to. -->
+    <label><input type="radio" name="q1" value="c1">
+      Experimenting, discovering, and learning
+    </label><br />
+    <label><input type="radio" name="q1" value="c2">
+      Helping others
+    </label><br />
+    <label><input type="radio" name="q1" value="c3">
+      Music, movies, games, and making others laugh
+    </label><br />
+    <label><input type="radio" name="q1" value="c4">
+      Taking risks
+    </label><br />
+
+    <!-- Question 2 -->
+    <h2>What is your ideal work environment?</h2>
+    <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+    <label><input type="radio" name="q2" value="c1">
+      Inside a high tech lab with lots of fancy equipment
+    </label><br />
+    <label><input type="radio" name="q2" value="c2">
+      Somewhere I feel appreciated for my work
+    </label><br />
+    <label><input type="radio" name="q2" value="c3">
+      Surrounded by cool gadgets and toys
+    </label><br />
+    <label><input type="radio" name="q2" value="c4">
+      Inside a cozy room or garage at home
+    </label><br />
+    
+    <!-- Question 3 -->
+    <h2>Who are your role models?</h2>
+    <!-- Choices for the third question -->
+    <label><input type="radio" name="q3" value="c1">
+      People who make great discoveries
+    </label><br />
+    <label><input type="radio" name="q3" value="c2">
+      People who make sacrifices to help others
+    </label><br />
+    <label><input type="radio" name="q3" value="c3">
+      Creative, artistic, and expressive people
+    </label><br />
+    <label><input type="radio" name="q3" value="c4">
+      People who build innovative products
+    </label><br />
+    
+    <!-- Question 4 -->
+    <h2>What do you do when you encounter a difficult problem?</h2>
+    <!-- Choices for the fourth question -->
+    <label><input type="radio" name="q4" value="c1">
+      Try to find the solution yourself (online, in a book, etc.)
+    </label><br />
+    <label><input type="radio" name="q4" value="c2">
+      Ask someone for help
+    </label><br />
+    <label><input type="radio" name="q4" value="c3">
+      Take a break, because it helps you be more creative
+    </label><br />
+    <label><input type="radio" name="q4" value="c4">
+      Jump in and try different solutions until one works
+    </label><br />
+    
+    <a type="submit" id="submit" onclick="score()">Submit Your Answers</a>
+  <a type="reset" id="reset" onclick="resetAnswer()">Reset</a>
+  </form>
+  
+  
+  <div id="answer">Your result will show up here!</div>
+  <div id="answer2">test</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                
             </div>
-            <div class="col-lg-3">
-                <div>
-                <img src="assets/images/adventure_images/running.jpg" height= "180" width= "180" style="border-radius:50%;">
-                </div>
-                <div>
-                    <button class="true">Like</button>
-                    <button class="false">Dislike</button>
-                    <p class="submit">...</p>
-               </div>
-            </div>
-            <div class="col-lg-3">
-                <div>
-                <img src="assets/images/adventure_images/running.jpg" height= "180" width= "180" style="border-radius:50%;">
-                </div>
-                <div>
-                    <button class="true">Like</button>
-                    <button class="false">Dislike</button>
-                    <p class="submit">...</p>
-               </div>
-            </div>
-            <div class="col-lg-3">
-                <div>
-                <img src="assets/images/adventure_images/running.jpg" height= "180" width= "180" style="border-radius:50%;">
-                </div>
-                <div>
-                    <button class="true">Like</button>
-                    <button class="false">Dislike</button>
-                    <p class="submit">...</p>
-               </div>
-            </div>
+            
+       
         <hr class="featurette-divider">
-        
         <h4> Still not convinced... at what others have experienced in our customer gallery, click on each image for more details </h4>
 
         <hr class="featurette-divider">
@@ -204,13 +265,8 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=myMap">
-    </script>
 
 
-<script src ="assets/js/weatherapi.js"></script>
-<script src="assets/js/maps.js"></script>
 <script src="assets/js/controls.js"></script>
 <script src="assets/js/sendEmail.js"></script>
 
