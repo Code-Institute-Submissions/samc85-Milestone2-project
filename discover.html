@@ -10,9 +10,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
 <script type="text/javascript">
-   (function(){
-      emailjs.init("user_LotgXUKrc88pOhpPCYgaH");
-   })();
+   (function(){emailjs.init("user_LotgXUKrc88pOhpPCYgaH");})();
 </script>
 
 <title>Choose your next...</title>
@@ -75,7 +73,7 @@
           </div>
           <div class="col-md-5 order-md-1">
             <div class = "weather-container">
-                <img class ="icon" height= "120" width="120">
+                <img class ="icon" height= "120" width="120" src="...">
                 <h3> Forecast: </h3>
                 <h5 class ="weather"></h5>
                 <br>
@@ -167,35 +165,7 @@
  
 <div class="container">
   <div class="row">
-    <div class="col-sm">
-      <h8>Where Next?</h8>
-      <br>
-      <p>About Us</p>
-      <p>.........</p>
-    </div>
-    <div class="col-sm">
-      <h8>What we offer</h8>
-      <br>
-      <p>City Break</p>
-      <p>....</p>
-      <p>Country Life</p>
-       <p>....</p>
-      <p>Adventure</p> 
-       <p>....</p>
-    </div>
-    <div class="col-sm">
-      <h8>Discover</h8>
-      <br>
-      <p>London</p>
-       <p>....</p>
-      <p>Coastal Path</p>
-       <p>....</p>
-      <p>The Lake Distrcit</p>
-       <p>....</p>
-    </div>
-    <div class="col-sm">
-        <h8>Social Media Links</h8>
-    </div>
+    
   </div>
 </div>
  
@@ -203,10 +173,10 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=myMap">
-    </script>
 
+
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEVRLRjQg6ELshdAz2ue-sFDGieokG3BA&callback=initMap"></script>
 
 <script src ="assets/js/weatherapi.js"></script>
 <script src="assets/js/maps.js"></script>
