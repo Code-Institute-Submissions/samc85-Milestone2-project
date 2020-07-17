@@ -8,6 +8,10 @@ $(function () {
 });
 
 // Country gallery
+$(".bath").click(function(){
+    $(".bath-text").slideToggle("slow");
+});
+
 $(".country-day1").click(function(){
     $(".bath").hide();
     $(".beachkite").hide();
