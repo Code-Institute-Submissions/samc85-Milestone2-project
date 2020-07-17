@@ -102,271 +102,71 @@ $("#explore").click(function(){
     alert("Time to explore");
 });
     
-//gallery
+//gallery quiz
 
 $(document).ready(function(){
   $(".arnside").click(function(){
-    $(".arnside").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".arnside-text").click(function(){
-    $(".arnside-text").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".arnside-text").click(function(){
-    $(".arnside").show("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".arnside").click(function(){
-    $(".arnside-text").show("slow");
-  });
-});
-
-//------------
-
-$(document).ready(function(){
-  $(".bird").click(function(){
-    $(".bird").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".bird-text").click(function(){
-    $(".bird-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".bird-text").click(function(){
-    $(".bird").show("slow");
+    $(".arnside-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".bird").click(function(){
-    $(".bird-text").show("slow");
-  });
-});
-
-//------
-
-$(document).ready(function(){
-  $(".bike").click(function(){
-    $(".bike").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".bike-text").click(function(){
-    $(".bike-text").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".bike-text").click(function(){
-    $(".bike").show("slow");
+    $(".bird-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".bike").click(function(){
-    $(".bike-text").show("slow");
+    $(".bike-text").slideToggle("slow");
   });
 });
 
-//------
 
 $(document).ready(function(){
   $(".beach").click(function(){
-    $(".beach").hide("slow");
+    $(".beach-text").slideToggle("slow");
   });
 });
 
-$(document).ready(function(){
-  $(".beach-text").click(function(){
-    $(".beach-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".beach-text").click(function(){
-    $(".beach").show("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".beach").click(function(){
-    $(".beach-text").show("slow");
-  });
-});
 
 //------- discover gallery
 $(document).ready(function(){
   $(".countryroad").click(function(){
-    $(".countryroad").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".countryroad-text").click(function(){
-    $(".countryroad-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".countryroad-text").click(function(){
-    $(".countryroad").show("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".countryroad").click(function(){
-    $(".countryroad-text").show("slow");
-  });
-});
-
-//------
-$(document).ready(function(){
-  $(".water").click(function(){
-    $(".water").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".water-text").click(function(){
-    $(".water-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".water-text").click(function(){
-    $(".water").show("slow");
+    $(".countryroad-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".water").click(function(){
-    $(".water-text").show("slow");
-  });
-});
-
-//------
-
-$(document).ready(function(){
-  $(".wrestling").click(function(){
-    $(".wrestling").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".wrestling-text").click(function(){
-    $(".wrestling-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".wrestling-text").click(function(){
-    $(".wrestling").show("slow");
+    $(".water-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".wrestling").click(function(){
-    $(".wrestling-text").show("slow");
-  });
-});
-
-//
-
-$(document).ready(function(){
-  $(".mine").click(function(){
-    $(".mine").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".mine-text").click(function(){
-    $(".mine-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".mine-text").click(function(){
-    $(".mine").show("slow");
+    $(".wrestling-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".mine").click(function(){
-    $(".mine-text").show("slow");
-  });
-});
-
-//
-
-$(document).ready(function(){
-  $(".fairg").click(function(){
-    $(".fair").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".fair-text").click(function(){
-    $(".fair-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".fair-text").click(function(){
-    $(".fair").show("slow");
+    $(".mine-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".fair").click(function(){
-    $(".fair-text").show("slow");
-  });
-});
-
-//
-
-$(document).ready(function(){
-  $(".spa").click(function(){
-    $(".spa").hide("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".spa-text").click(function(){
-    $(".spa-text").hide("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".spa-text").click(function(){
-    $(".spa").show("slow");
+    $(".fair-text").slideToggle("slow");
   });
 });
 
 $(document).ready(function(){
   $(".spa").click(function(){
-    $(".spa-text").show("slow");
+    $(".spa-text").slideToggle("slow");
   });
 });
+
 
 })
 
