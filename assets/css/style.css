@@ -424,6 +424,21 @@ a:link, a:visited {
      background: #eee;
      padding: 10px;
 }
+
+/*------    */
+
+.facts {
+    color: black;
+    background-image:linear-gradient(#D7DDE8,#757F9A);
+}
+
+.show-fact1, .show-fact2, .show-fact3 {
+    display: none;
+    color: black;
+    background-color: white;
+}
+
+
 /* gallery. */
 /*--- image gallery ----*/
  .row-gallery {
@@ -509,12 +524,13 @@ a:link, a:visited {
  .beachkite {
      display: none;
 }
- .beachkite-text {
-     display: none;
+.beachkite-text {
+    display: none
 }
+
  .cartmel {
      display: none;
-    ;
+    
 }
  .cartmel-text {
      display: none;
@@ -526,3 +542,9 @@ a:link, a:visited {
      display: none;
 }
  
+
+/*----  */
+
+#discover-link {
+    color: blue;
+}

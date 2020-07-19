@@ -23,7 +23,7 @@ $(".country-day1").click(function(){
     $(".beachkite").show("slow");
 });
 
-$(".beachkite").click(function(){
+$(".country-day1").click(function(){
     $(".beachkite-text").slideToggle("slow");
 });
 
@@ -37,7 +37,7 @@ $(".country-day2").click(function(){
     $(".cartmel").show("slow");
 });
 
-$(".cartmel").click(function(){
+$(".country-day2").click(function(){
     $(".cartmel-text").slideToggle("slow");
 });
 
@@ -49,11 +49,89 @@ $(".country-day3").click(function(){
 
 $(".country-day3").click(function(){
     $(".dogchase").show("slow");
-});
-
-$(".dogchase").click(function(){
     $(".dogchase-text").slideToggle("slow");
 });
+
+//---- adventure packages -----//
+
+$(".bath").click(function(){
+    $(".bath-text").slideToggle("slow");
+});
+
+$(".adventure-day1").click(function(){
+    $(".bath").hide();
+    $(".beachkite").hide();
+    $(".cartmel").hide();
+    $(".dogchase").hide();
+});
+
+$(".adventure-day1").click(function(){
+    $(".beachkite").show("slow");
+    $(".beachkite-text").slideToggle("slow");
+});
+
+$(".adventure-day2").click(function(){
+    $(".beachkite").hide();
+    $(".bath").hide();
+    $(".dogchase").hide();
+});
+
+$(".adventure-day2").click(function(){
+    $(".cartmel").show("slow");
+    $(".cartmel-text").slideToggle("slow");
+});
+
+$(".adventure-day3").click(function(){
+    $(".cartmel").hide();
+    $(".beachkite").hide();
+    $(".bath").hide();
+});
+
+$(".adventure-day3").click(function(){
+    $(".dogchase").show("slow");
+    $(".dogchase-text").slideToggle("slow");
+});
+
+//--- comfort packages ----//
+
+$(".bath").click(function(){
+    $(".bath-text").slideToggle("slow");
+});
+
+$(".comfort-day1").click(function(){
+    $(".bath").hide();
+    $(".beachkite").hide();
+    $(".cartmel").hide();
+    $(".dogchase").hide();
+});
+
+$(".comfort-day1").click(function(){
+    $(".beachkite").show("slow");
+    $(".beachkite-text").slideToggle("slow");
+});
+
+$(".comfort-day2").click(function(){
+    $(".beachkite").hide();
+    $(".bath").hide();
+    $(".dogchase").hide();
+});
+
+$(".comfort-day2").click(function(){
+    $(".cartmel").show("slow");
+    $(".cartmel-text").slideToggle("slow");
+});
+
+$(".comfort-day3").click(function(){
+    $(".cartmel").hide();
+    $(".beachkite").hide();
+    $(".bath").hide();
+});
+
+$(".comfort-day3").click(function(){
+    $(".dogchase").show("slow");
+    $(".dogchase-text").slideToggle("slow");
+});
+
 
 //-----  Packages  --------//
 
@@ -82,53 +160,20 @@ $("#hide-comfort").click(function(){
 });
 
 
-//quiz
-
-$("#explore").click(function(){
-    $(".pre-result").hide();
-});
-
-$("#explore").click(function(){
-    $(".post-result").show();
-});
-
-
-  $("#relax").click(function(){
-    alert("Time to explore");
-});
     
-
- $("#sightsee").click(function(){
-    alert("Time to explore");
-});
-    
-//gallery quiz
+// fact cards
 
 $(document).ready(function(){
-  $(".arnside").click(function(){
-    $(".arnside-text").slideToggle("slow");
-  });
+    $(".fact2").click(function(){
+        $(".show-fact2").slideToggle("slow");
+        });
+    $(".fact1").click(function(){
+        $(".show-fact1").slideToggle("slow");
+        });
+     $(".fact3").click(function(){
+        $(".show-fact3").slideToggle("slow");
+    });
 });
-
-$(document).ready(function(){
-  $(".bird").click(function(){
-    $(".bird-text").slideToggle("slow");
-  });
-});
-
-$(document).ready(function(){
-  $(".bike").click(function(){
-    $(".bike-text").slideToggle("slow");
-  });
-});
-
-
-$(document).ready(function(){
-  $(".beach").click(function(){
-    $(".beach-text").slideToggle("slow");
-  });
-});
-
 
 //------- discover gallery
 $(document).ready(function(){
