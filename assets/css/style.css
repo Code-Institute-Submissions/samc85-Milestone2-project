@@ -346,8 +346,8 @@ a:link, a:visited {
  footer {
      opacity: 0.7;
      color: white;
-     background-image: linear-gradient(#000000, #232526, #000000);
-     border-top: 8pt solid black;
+     background-image: #232526;
+     border-top: 8pt solid rgb(0, 0, 0);
 }
 
 .footer-head {
