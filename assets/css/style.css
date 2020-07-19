@@ -25,6 +25,11 @@
 img{
     border-radius: 12px;
 }
+
+a:link, a:visited {
+    color: white;
+}
+
 /* Navbar --------------------------------------------------- */
  .navbar {
      opacity: 0.8;
@@ -344,6 +349,18 @@ img{
      background-image: linear-gradient(#000000, #232526, #000000);
      border-top: 8pt solid black;
 }
+
+.footer-head {
+    text-decoration: underline;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+
+
+
 /*------------------------------------------------------ Contact Form */
  .contact-heading{
      font-family: "Exo", sans-serif;
