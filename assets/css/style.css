@@ -258,10 +258,6 @@ a:link, a:visited {
      margin: 0 auto;
      text-align: center;
 }
- .card {
-     border-radius: 25px 25px 0px 0px;
-     border: 1pt solid black;
-}
  .package-img-adv {
      border-radius: 50%;
 }
@@ -429,7 +425,7 @@ a:link, a:visited {
 
 .facts {
     color: black;
-    background-image:linear-gradient(#D7DDE8,#757F9A);
+   
 }
 
 .show-fact1, .show-fact2, .show-fact3 {
@@ -456,69 +452,79 @@ a:link, a:visited {
      text-align: center;
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .bird-text {
      display: none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .beach-text {
      display: none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .bike-text {
      display: none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .countryroad-text {
      display:none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .water-text {
      display:none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .wrestling-text {
      display:none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .spa-text {
      display:none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .mine-text {
      display:none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
  .fair-text {
      display:none;
      padding: 5px;
      text-align: center;
-     background-color: #e5eecc;
+     background-color: lightgrey;
      border: solid 1px #c3c3c3;
+     opacity: 0.7;
 }
 /*----- jquery packages gallery ---- */
 
