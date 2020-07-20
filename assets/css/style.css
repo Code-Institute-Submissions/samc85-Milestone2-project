@@ -520,17 +520,17 @@ a:link, a:visited {
      background-color: #e5eecc;
      border: solid 1px #c3c3c3;
 }
-/*----- jquery gallery ---- */
+/*----- jquery packages gallery ---- */
+
+/*--- country package ----*/
  .beachkite {
      display: none;
 }
 .beachkite-text {
     display: none
 }
-
  .cartmel {
-     display: none;
-    
+     display: none;   
 }
  .cartmel-text {
      display: none;
@@ -541,7 +541,28 @@ a:link, a:visited {
  .dogchase-text {
      display: none;
 }
- 
+ /*--- adventure packages ----*/
+ .adventure-text {
+     display: none;
+ }
+.cycle-pair{
+    display: none;
+}
+.adventure-1and2-text{
+    display:none;
+}
+.hike{
+    display:none;
+}
+.adventure-3and4-text{
+    display:none;
+}
+.sail{
+    display:none;
+}
+.adventure-5and6-text{
+    display:none;
+}
 
 /*----  */
 
