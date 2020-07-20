@@ -564,6 +564,30 @@ a:link, a:visited {
     display:none;
 }
 
+/*---- comfort packages ------*/
+
+.picnic {
+    display: none;
+}
+.picnic-text{
+    display: none;
+}
+.forest {
+    display: none;
+}
+.forest-text{
+    display: none;
+}
+.window{
+    display:none;
+}
+.window-text{
+    display:none;
+}
+
+
+
+
 /*----  */
 
 #discover-link {

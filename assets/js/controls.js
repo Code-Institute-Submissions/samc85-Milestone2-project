@@ -105,42 +105,52 @@ $(".adventure-day5and6").click(function(){
 
 //--- comfort packages ----//
 
-$(".bath").click(function(){
-    $(".bath-text").slideToggle("slow");
+$(".farm").click(function(){
+    $(".farm-text").slideToggle("slow");
 });
 
-$(".comfort-day1").click(function(){
-    $(".bath").hide();
-    $(".beachkite").hide();
-    $(".cartmel").hide();
-    $(".dogchase").hide();
+$(".comfort-day1and2").click(function(){
+    $(".farm").hide();
+    $(".farm-text").hide();
+    $(".picnic").hide();
+    $(".picnic-text").hide();
+    $(".forest").hide();
+    $(".forest-text").hide();
+    $(".window").hide();
+    $(".window-text").hide();
 });
 
-$(".comfort-day1").click(function(){
-    $(".beachkite").show("slow");
-    $(".beachkite-text").slideToggle("slow");
+$(".comfort-day1and2").click(function(){
+    $(".picnic").show("slow");
+    $(".picnic-text").slideToggle("slow");
 });
 
-$(".comfort-day2").click(function(){
-    $(".beachkite").hide();
-    $(".bath").hide();
-    $(".dogchase").hide();
+$(".comfort-day3and4").click(function(){
+    $(".farm").hide();
+    $(".farm-text").hide();
+    $(".picnic").hide();
+    $(".picnic-text").hide();
+    $(".window").hide();
+    $(".window-text").hide();
 });
 
-$(".comfort-day2").click(function(){
-    $(".cartmel").show("slow");
-    $(".cartmel-text").slideToggle("slow");
+$(".comfort-day3and4").click(function(){
+    $(".forest").show("slow");
+    $(".forest-text").slideToggle("slow");
 });
 
-$(".comfort-day3").click(function(){
-    $(".cartmel").hide();
-    $(".beachkite").hide();
-    $(".bath").hide();
+$(".comfort-day5and6").click(function(){
+    $(".farm").hide();
+    $(".farm-text").hide();
+    $(".picnic").hide();
+    $(".picnic-text").hide();
+    $(".forest").hide();
+    $(".forest-text").hide();
 });
 
-$(".comfort-day3").click(function(){
-    $(".dogchase").show("slow");
-    $(".dogchase-text").slideToggle("slow");
+$(".comfort-day5and6").click(function(){
+    $(".window").show("slow");
+    $(".window-text").slideToggle("slow");
 });
 
 
