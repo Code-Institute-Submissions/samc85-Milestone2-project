@@ -8,6 +8,9 @@ function initMap() {
         }
     });
 
+ var bikeLayer = new google.maps.BicyclingLayer();
+        bikeLayer.setMap(map);
+
   
   var request = {
     placeId: "ChIJN1t_tDeuEmsRUsoyG83frY4",
