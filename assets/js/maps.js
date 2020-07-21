@@ -1,27 +1,43 @@
   
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 7,
+        zoom: 9,
         center: {
             lat: 54.4609,
             lng: -3.0886
         }
     });
 
-    var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  
+  var request = {
+    placeId: "ChIJN1t_tDeuEmsRUsoyG83frY4",
+    fields: ["name", "formatted_address", "place_id", "geometry"]
+  };
 
-    var locations = [
-        { name: 'Town', lat: 40.785091, lng: -73.968285 },
-        { lat: 41.084045, lng: -73.874245 },
-        { lat: 40.754932, lng: -73.984016 }
-    ];
+  var infowindow = new google.maps.InfoWindow();
+  var service = new google.maps.places.PlacesService(map);
 
-    var markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-    });
-
-    var markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
+  service.getDetails(request, function(place, status) {
+    if (status === google.maps.places.PlacesServiceStatus.OK) {
+      var marker = new google.maps.Marker({
+        map: map,
+        position: place.geometry.location
+      });
+      google.maps.event.addListener(marker, "click", function() {
+        infowindow.setContent(
+          "<div><strong>" +
+            place.name +
+            "</strong><br>" +
+            "Place ID: " +
+            place.place_id +
+            "<br>" +
+            place.formatted_address +
+            "</div>"
+        );
+        infowindow.open(map, this);
+      });
+    }
+  });
 }
+
+   
