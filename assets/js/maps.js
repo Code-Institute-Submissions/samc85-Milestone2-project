@@ -1,5 +1,4 @@
-  
-function initMap() {
+  function initMap() {
     let map = new google.maps.Map(document.getElementById("map"), {
         zoom: 3,
         center: {
@@ -8,24 +7,22 @@ function initMap() {
         }
     });
      
+    let bikeLayer = new google.maps.BicyclingLayer();
+    bikeLayer.setMap(map);
 
-        var bikeLayer = new google.maps.BicyclingLayer();
-        bikeLayer.setMap(map);
-
-  
    $(".towns").click(function() {
   console.log(this.dataset.lat+","+this.dataset.lng);
   map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
   map.setZoom(14);
   });
   const towns = [
-    ['ambleside', 54.4287, -2.9613],
-    ['keswick',  54.6013, -3.1347],
-    ['bowness-on-windermere', 54.3647, -2.9196],   
-    ['grasmere', 54.4597, -3.0244],  
-    ['hawkshead', 54.3758, -2.9994],
-    ['lake-district', 54.4609, -3.0886]
-  ]
+    ["ambleside", 54.4287, -2.9613],
+    ["keswick",  54.6013, -3.1347],
+    ["bowness-on-windermere", 54.3647, -2.9196],   
+    ["grasmere", 54.4597, -3.0244],  
+    ["hawkshead", 54.3758, -2.9994],
+    ["lake-district", 54.4609, -3.0886]
+  ];
 
   let bounds = new google.maps.LatLngBounds();
   for (i = 0; i < towns.length; i++) {

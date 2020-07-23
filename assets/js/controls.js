@@ -1,12 +1,10 @@
 $(document).ready(function(){
-
 // Popover function 
 $(function () {
-  $('[data-toggle="popover"]').popover({
+  $("[data-toggle='popover']").popover({
       html: true,
-  })
+  });
 });
-
 // Country gallery
 $(".bath").click(function(){
     $(".bath-text").slideToggle("slow");
@@ -153,7 +151,6 @@ $(".comfort-day5and6").click(function(){
     $(".window-text").slideToggle("slow");
 });
 
-
 //-----  Packages  --------//
 
 $("#show-adventure").click(function(){
@@ -180,10 +177,7 @@ $("#hide-comfort").click(function(){
   $("#comfort-package").show();
 });
 
-
-    
 // fact cards
-
 $(document).ready(function(){
     $(".fact2").click(function(){
         $(".show-fact2").slideToggle("slow");
@@ -232,14 +226,12 @@ $(document).ready(function(){
     $(".spa-text").slideToggle("slow");
   });
 });
-
-
-})
+});
 
 //quiz
 
 // function to calculate the result of the survey
-$(document).ready(score = () => {
+$(document).ready(function score() {
   // initialize variables for each choice's score
   // If you add more choices and outcomes, you must add another variable here.
   let c1score = 0;
@@ -248,34 +240,32 @@ $(document).ready(score = () => {
   let c4score = 0;
 
   // get a list of the radio inputs on the page
-  let choices = document.getElementsByTagName('input');
+  let choices = document.getElementsByTagName("input");
   // loop through all the radio inputs
   for (i=0; i<choices.length; i++) {
     // if the radio is checked..
     if (choices[i].checked) {
       // add 1 to that choice's score
-      if (choices[i].value == 'c1') {
+      if (choices[i].value == "c1") {
         c1score = c1score + 1;
       }
-      if (choices[i].value == 'c2') {
+      if (choices[i].value == "c2") {
         c2score = c2score + 1;
       }
-      if (choices[i].value == 'c3') {
+      if (choices[i].value == "c3") {
         c3score = c3score + 1;
       }
-      if (choices[i].value == 'c4') {
+      if (choices[i].value == "c4") {
         c4score = c4score + 1;
       }
       // If you add more choices and outcomes, you must add another if statement below.
     }
   }
-  
   // Find out which choice got the highest score.
   // If you add more choices and outcomes, you must add the variable here.
   let maxscore = Math.max(c1score,c2score,c3score,c4score);
-  
   // Display answer corresponding to that choice
-  let answerbox = document.getElementById('answer');
+  let answerbox = document.getElementById("answer");
   if (c1score == maxscore) { // If user chooses the first choice the most, this outcome will be displayed.
     answerbox.innerHTML = "You are an adventure seeker... why not look at our Adventure package";
   }
@@ -284,18 +274,14 @@ $(document).ready(score = () => {
   }
   if (c3score == maxscore) { // If user chooses the third choice the most, this outcome will be displayed.
     answerbox.innerHTML = "You seek the Country life... enjoying nature, local towns... why not explore our Country packages";
-  }
-  
+  }  
   // If you add more choices, you must add another response below.
-})
+});
 
 // program the reset button
-$(document).ready(resetAnswer = () => {
-  let answerbox = document.getElementById('answer');
+$(document).ready(function resetAnswer () {
+  let answerbox = document.getElementById("answer");
   answerbox.innerHTML = "Your result will show up here!";
-})
-
-
-
+});
 
 
