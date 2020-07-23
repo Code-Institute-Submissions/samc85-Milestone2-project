@@ -13,7 +13,7 @@
    $(".towns").click(function() {
   console.log(this.dataset.lat+","+this.dataset.lng);
   map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-  map.setZoom(14);
+  map.setZoom(15);
   });
   const towns = [
     ["ambleside", 54.4287, -2.9613],
