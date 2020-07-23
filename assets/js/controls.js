@@ -231,7 +231,7 @@ $(document).ready(function(){
 //quiz
 
 // function to calculate the result of the survey
-$(document).ready(function score() {
+$(document).ready(score=()=> {
   // initialize variables for each choice's score
   // If you add more choices and outcomes, you must add another variable here.
   let c1score = 0;
@@ -279,7 +279,7 @@ $(document).ready(function score() {
 });
 
 // program the reset button
-$(document).ready(function resetAnswer () {
+$(document).ready(resetAnswer= ()=> {
   let answerbox = document.getElementById("answer");
   answerbox.innerHTML = "Your result will show up here!";
 });
