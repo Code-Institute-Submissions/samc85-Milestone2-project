@@ -21,15 +21,12 @@
  .feature-space {
      margin: 30px;
 }
-
-img{
-    border-radius: 12px;
+ img{
+     border-radius: 12px;
 }
-
-a:link, a:visited {
-    color: white;
+ a:link, a:visited {
+     color: white;
 }
-
 /* Navbar --------------------------------------------------- */
  .navbar {
      opacity: 0.8;
@@ -122,9 +119,7 @@ a:link, a:visited {
      display: inline-block;
      background-position: center;
 }
-
 /*--- Package background images on index page ---*/
-
  .background-image-country {
      background-image: url("../images/country_images/cave.jpg");
      width: 100%;
@@ -137,7 +132,6 @@ a:link, a:visited {
      color: white;
      margin: 0 auto;
 }
-
  .background-image-adventure {
      background-image: url("../images/adventure_images/discover.jpg");
      width: 100%;
@@ -150,7 +144,6 @@ a:link, a:visited {
      color: white;
      margin: 0 auto;
 }
-
  .background-image-comfort {
      background-image: url("../images/country_images/cave.jpg");
      width: 100%;
@@ -174,7 +167,6 @@ a:link, a:visited {
      display: inline-block;
      background-position: center;
 }
-
  .background-image-takequiz {
      background-image: url("../images/index_images/plan.jpg");
      width: 100%;
@@ -188,7 +180,6 @@ a:link, a:visited {
      margin: 0 auto;
      opacity: 1;
 }
-
  .background-image-friends {
      background-image: url("../images/index_images/country.jpg");
      width: 100%;
@@ -202,8 +193,6 @@ a:link, a:visited {
      margin: 0 auto;
      opacity: 1;
 }
-
-
 /* Create four equal columns that sits next to each other */
  .column {
      flex: 25%;
@@ -271,16 +260,13 @@ a:link, a:visited {
      height: 400px;
      background-color: grey;
 }
-
-.towns {
-    font-size: 14px;
+ .towns {
+     font-size: 14px;
 }
 /*---- Jquery Packages ---*/
-
-.bath-text{
-    display: none;
+ .bath-text{
+     display: none;
 }
-
  #adventure-package {
      display: none;
 }
@@ -298,27 +284,22 @@ a:link, a:visited {
      box-shadow: 5px 10px black;
 }
  .weather {
-   
      margin: 0;
      font-weight: 700;
 }
-.temperature {
-    
+ .temperature {
      margin: 0;
      font-weight: 700;
 }
  .temp {
-     
      margin: 0;
      font-weight: bold;
 }
  .temp_min {
-    
      margin: 0;
      font-weight: 700;
 }
  .temp_max {
-    
      margin: 0;
      font-weight: 700;
 }
@@ -338,9 +319,8 @@ a:link, a:visited {
  .fa-road {
      color: slategrey;
 }
-
-.fa-poll-h {
-    color: blue;
+ .fa-poll-h {
+     color: blue;
 }
 /* Footer -------------------------------------------------- */
  footer {
@@ -349,18 +329,12 @@ a:link, a:visited {
      background-image: #232526;
      border-top: 8pt solid rgb(0, 0, 0);
 }
-
-.footer-head {
-    text-decoration: underline;
+ .footer-head {
+     text-decoration: underline;
 }
-
-.dropdown-menu .dropdown-item {
-    color: black;
+ .dropdown-menu .dropdown-item {
+     color: black;
 }
-
-
-
-
 /*------------------------------------------------------ Contact Form */
  .contact-heading{
      font-family: "Exo", sans-serif;
@@ -424,21 +398,15 @@ a:link, a:visited {
      background: #eee;
      padding: 10px;
 }
-
-/*------    */
-
-.facts {
-    color: black;
-   
+/*------ */
+ .facts {
+     color: black;
 }
-
-.show-fact1, .show-fact2, .show-fact3 {
-    display: none;
-    color: black;
-    background-color: white;
+ .show-fact1, .show-fact2, .show-fact3 {
+     display: none;
+     color: black;
+     background-color: white;
 }
-
-
 /* gallery. */
 /*--- image gallery ----*/
  .row-gallery {
@@ -531,16 +499,15 @@ a:link, a:visited {
      opacity: 0.7;
 }
 /*----- jquery packages gallery ---- */
-
 /*--- country package ----*/
  .beachkite {
      display: none;
 }
-.beachkite-text {
-    display: none
+ .beachkite-text {
+     display: none 
 }
  .cartmel {
-     display: none;   
+     display: none;
 }
  .cartmel-text {
      display: none;
@@ -551,55 +518,48 @@ a:link, a:visited {
  .dogchase-text {
      display: none;
 }
- /*--- adventure packages ----*/
+/*--- adventure packages ----*/
  .adventure-text {
      display: none;
- }
-.cycle-pair{
-    display: none;
 }
-.adventure-1and2-text{
-    display:none;
+ .cycle-pair{
+     display: none;
 }
-.hike{
-    display:none;
+ .adventure-1and2-text{
+     display:none;
 }
-.adventure-3and4-text{
-    display:none;
+ .hike{
+     display:none;
 }
-.sail{
-    display:none;
+ .adventure-3and4-text{
+     display:none;
 }
-.adventure-5and6-text{
-    display:none;
+ .sail{
+     display:none;
 }
-
+ .adventure-5and6-text{
+     display:none;
+}
 /*---- comfort packages ------*/
-
-.picnic {
-    display: none;
+ .picnic {
+     display: none;
 }
-.picnic-text{
-    display: none;
+ .picnic-text{
+     display: none;
 }
-.forest {
-    display: none;
+ .forest {
+     display: none;
 }
-.forest-text{
-    display: none;
+ .forest-text{
+     display: none;
 }
-.window{
-    display:none;
+ .window{
+     display:none;
 }
-.window-text{
-    display:none;
+ .window-text{
+     display:none;
 }
-
-
-
-
-/*----  */
-
-#discover-link {
-    color: blue;
+/*---- */
+ #discover-link {
+     color: blue;
 }
