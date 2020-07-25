@@ -260,8 +260,15 @@ p {
      background-color: grey;
 }
  .towns {
-     font-size: 14px;
+     font-size: 18px;
+     background-color: lightgrey;
+     padding: 9px;
+     border: 3pt;
 }
+.towns:hover {
+    background-color: red;
+}
+
 /*---- Jquery Packages ---*/
  .bath-text{
      display: none;
@@ -356,7 +363,7 @@ p {
      max-width: 70%;
 }
  button[type="submit"] {
-     margin-top: 15px;
+     margin-top: 20px;
      margin-bottom: 20px;
      color: #fafafa;
      background-color: #e84610;
