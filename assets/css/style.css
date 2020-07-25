@@ -1,217 +1,216 @@
 /* GLOBAL STYLES -------------------------------------------------- */
- body {
-     margin: 0;
+body {
+    margin: 0;
     /*background-image:linear-gradient(#FFFFFF,#4B79A1);
      */
-     font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 p {
     font-size: 18px;
 }
- .text-align {
-     text-align: center;
+.text-align {
+    text-align: center;
 }
- .image-radius {
-     padding-top: 24px;
+.image-radius {
+    padding-top: 24px;
 }
- .coast {
-     border-radius: 50%;
+.coast {
+    border-radius: 50%;
 }
- .featurette-heading {
-     padding-left: 9px;
-     text-align: center;
+.featurette-heading {
+    padding-left: 9px;
+    text-align: center;
 }
- .feature-space {
-     margin: 30px;
+.feature-space {
+    margin: 30px;
 }
- img{
-     border-radius: 12px;
+img {
+    border-radius: 12px;
 }
 .btn-main {
-  background-color: #c0c0c0;
-  display: block;
-  margin: 0 auto;
-  width: 100px;
-  height: 30px;
-  border: 1pt solid #000;
-  color: #000;
-  border-radius: 12px;
-  font-weight: 700;
-  box-shadow: 3px 2px #000;
+    background-color: #c0c0c0;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    border: 1pt solid #000;
+    color: #000;
+    border-radius: 12px;
+    font-weight: 700;
+    box-shadow: 3px 2px #000;
 }
 /* Navbar --------------------------------------------------- */
- .navbar {
-     opacity: 0.8;
+.navbar {
+    opacity: 0.8;
 }
- .navbar-brand {
-     color: #000;
+.navbar-brand {
+    color: #000;
 }
- .dropdown {
-     right: 5%;
+.dropdown {
+    right: 5%;
 }
 /* Center align the text within the three columns below the carousel */
- .marketing .col-lg-4 {
-     margin-bottom: 1.5rem;
-     text-align: center;
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
- .marketing h2 {
-     font-weight: 400;
+.marketing h2 {
+    font-weight: 400;
 }
- .marketing .col-lg-4 p {
-     margin-right: 0.75rem;
-     margin-left: 0.75rem;
+.marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
 }
 /* Featurettes ------------------------- */
- .featurette-divider {
-     margin: 5rem 0;
+.featurette-divider {
+    margin: 5rem 0;
     /* Space out the Bootstrap <hr> more */
 }
 /* index page */
- .hero-image {
-     background-image: url("../images/index_images/discoverlakes.jpg");
-     width: 100%;
-     height: 100%;
-     padding-top: 270px;
-     padding-bottom: 350px;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-      text-shadow: 2px 2px #000;
+.hero-image {
+    background-image: url("../images/index_images/discoverlakes.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 270px;
+    padding-bottom: 350px;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    text-shadow: 2px 2px #000;
 }
- .hero-text {
-     text-align: center;
-     font-weight: bold;
-     font-size: 42px;
-     text-shadow: 2px 2px #000;
+.hero-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    text-shadow: 2px 2px #000;
 }
- .about-text {
-     color: #000;
-     text-align: center;
-     font-weight: bold;
-     font-size: 42px;
-     margin: 0 auto;
-     padding-right: 21px;
-     padding-bottom: 42px;
+.about-text {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0 auto;
+    padding-right: 21px;
+    padding-bottom: 42px;
 }
- .what-text {
-     color: #000;
-     text-align: center;
-     font-weight: bold;
-     font-size: 42px;
-     margin: 0 auto;
-     padding-right: 21px;
-     padding-bottom: 42px;
+.what-text {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0 auto;
+    padding-right: 21px;
+    padding-bottom: 42px;
 }
- .background-image-what {
-     background-image: url("../images/index_images/whatwedo.jpg");
-     width: 100%;
-     height: 50%;
-     padding-top: 180px;
-     padding-bottom: 180px;
-     background-position: center;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-     margin: 0 auto;
-     opacity: 1;
+.background-image-what {
+    background-image: url("../images/index_images/whatwedo.jpg");
+    width: 100%;
+    height: 50%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    opacity: 1;
 }
 /*----- Discover Page ------*/
- .discover-text {
-     color: #000;
-     text-align: center;
-     font-weight: 700;
-     font-size: 42px;
-     padding-bottom: 42px;
-      text-shadow: 2px 2px #000;
+.discover-text {
+    color: #000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    padding-bottom: 42px;
+    text-shadow: 2px 2px #000;
 }
- .background-image-lakes {
-     background-image: url("../images/discover_images/lake.jpg");
-     width: 100%;
-     height: 100%;
-     padding-bottom: 240px;
-     padding-top: 240px;
-     background-size: cover;
-     display: inline-block;
-     background-position: center;
+.background-image-lakes {
+    background-image: url("../images/discover_images/lake.jpg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 240px;
+    padding-top: 240px;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
 }
 /*--- Package background images on index page ---*/
- .background-image-country {
-     background-image: url("../images/index_images/cave.jpg");
-     width: 100%;
-     height: 100%;
-     padding-top: 180px;
-     padding-bottom: 180px;
-     background-position: center;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-     margin: 0 auto;
-      text-shadow: 2px 2px #000;
+.background-image-country {
+    background-image: url("../images/index_images/cave.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    text-shadow: 2px 2px #000;
 }
- .background-image-adventure {
-     background-image: url("../images/index_images/discover.jpg");
-     width: 100%;
-     height: 100%;
-     padding-top: 180px;
-     padding-bottom: 180px;
-     background-position: center;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-     margin: 0 auto;
-      text-shadow: 2px 2px #000;
+.background-image-adventure {
+    background-image: url("../images/index_images/discover.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    text-shadow: 2px 2px #000;
 }
- .background-image-comfort {
-     background-image: url("../images/index_images/cottagehawkshead.jpg");
-     width: 100%;
-     height: 100%;
-     padding-top: 180px;
-     padding-bottom: 180px;
-     background-position: center;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-     margin: 0 auto;
-      text-shadow: 2px 2px #000;
+.background-image-comfort {
+    background-image: url("../images/index_images/cottagehawkshead.jpg");
+    width: 100%;
+    height: 100%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    text-shadow: 2px 2px #000;
 }
 /*-- Quiz page -- */
- .background-image-quiz {
-     background-image: url("../images/quiz_images/adventurehero.jpg");
-     width: 100%;
-     height: 100%;
-     padding-bottom: 240px;
-     padding-top: 240px;
-     background-size: cover;
-     display: inline-block;
-     background-position: center;
+.background-image-quiz {
+    background-image: url("../images/quiz_images/adventurehero.jpg");
+    width: 100%;
+    height: 100%;
+    padding-bottom: 240px;
+    padding-top: 240px;
+    background-size: cover;
+    display: inline-block;
+    background-position: center;
 }
- .background-image-takequiz {
-     background-image: url("../images/quiz_images/plan.jpg");
-     width: 100%;
-     height: 50%;
-     padding-top: 180px;
-     padding-bottom: 180px;
-     background-position: center;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-     margin: 0 auto;
-     opacity: 1;
+.background-image-takequiz {
+    background-image: url("../images/quiz_images/plan.jpg");
+    width: 100%;
+    height: 50%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    opacity: 1;
 }
- .background-image-friends {
-     background-image: url("../images/quiz_images/country.jpg");
-     width: 100%;
-     height: 50%;
-     padding-top: 180px;
-     padding-bottom: 180px;
-     background-position: center;
-     background-size: cover;
-     display: inline-block;
-     color: #fff;
-     margin: 0 auto;
-     opacity: 1;
+.background-image-friends {
+    background-image: url("../images/quiz_images/country.jpg");
+    width: 100%;
+    height: 50%;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    margin: 0 auto;
+    opacity: 1;
 }
-
 .carousel-text {
     color: #fff;
     font-size: 14px;
@@ -219,143 +218,146 @@ p {
     background-color: #000;
     width: 100%;
     opacity: 0.7;
-
 }
 /* Create four equal columns that sits next to each other */
- .column {
-     flex: 25%;
-     padding: 0 4px;
+.column {
+    flex: 25%;
+    padding: 0 4px;
 }
- .column img {
-     margin-top: 8px;
-     vertical-align: middle;
-     width: 100%;
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
 }
 /* RESPONSIVE CSS -------------------------------------------------- */
- @media (min-width: 40em) {
+@media (min-width: 40em) {
     /* Bump up size of carousel content */
-     .carousel-caption p {
-         margin-bottom: 1.25rem;
-         font-size: 1.25rem;
-         line-height: 1.4;
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
     }
-     .featurette-heading {
-         font-size: 50px;
+    .featurette-heading {
+        font-size: 50px;
     }
 }
- @media (max-width: 768px){
-     .carousel .carousel-inner {
-         height: auto;
+@media (max-width: 768px) {
+    .carousel .carousel-inner {
+        height: auto;
     }
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
- @media screen and (max-width: 800px) {
-     .column {
-         flex: 50%;
-         max-width: 50%;
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
     }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
- @media screen and (max-width: 600px) {
-     .column {
-         flex: 100%;
-         max-width: 100%;
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
     }
 }
 /*--- Packages ----*/
- h1, .packages {
-     text-align: center;
+h1,
+.packages {
+    text-align: center;
 }
- .card-body {
-     margin: 0 auto;
-     text-align: center;
+.card-body {
+    margin: 0 auto;
+    text-align: center;
 }
- .package-img-adv {
-     border-radius: 50%;
+.package-img-adv {
+    border-radius: 50%;
 }
- .card-footer {
-     background-color: #ff2d00;
+.card-footer {
+    background-color: #ff2d00;
+}
+.package-image-text {
+    padding-top: 15px;
 }
 /*---- Google Maps API */
 /* Set the size of the div element that contains the map */
- #map {
-     width: 100%;
-     height: 400px;
-     background-color: #b1b1b1;
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: #b1b1b1;
 }
- .towns {
-     font-size: 18px;
-     background-color: #b1b1b1;
-     padding: 9px;
-     border: 0.7pt solid #000;
-     margin: 3px;
-      box-shadow: 3px 2px #000;
+.towns {
+    font-size: 18px;
+    background-color: #b1b1b1;
+    padding: 9px;
+    border: 0.7pt solid #000;
+    margin: 3px;
+    box-shadow: 3px 2px #000;
 }
 .towns:hover {
     background-color: #ff2d00;
 }
 
 /*---- Jquery Packages ---*/
- .bath-text{
-     display: none;
+.bath-text {
+    display: none;
 }
- #adventure-package {
-     display: none;
+#adventure-package {
+    display: none;
 }
- #country-package {
-     display: none;
+#country-package {
+    display: none;
 }
- #comfort-package {
-     display: none;
+#comfort-package {
+    display: none;
 }
 /*---- weather api. -----*/
- .weather-container {
-     text-align: center;
-     border-radius: 12px;
-     background-image: linear-gradient(45deg, #2980B9, #6DD5FA,#FFF);
-     box-shadow: 5px 10px #000;
+.weather-container {
+    text-align: center;
+    border-radius: 12px;
+    background-image: linear-gradient(45deg, #2980b9, #6dd5fa, #fff);
+    box-shadow: 5px 10px #000;
 }
- .weather {
-     margin: 0;
-     font-weight: 700;
+.weather {
+    margin: 0;
+    font-weight: 700;
 }
- .temperature {
-     margin: 0;
-     font-weight: 700;
+.temperature {
+    margin: 0;
+    font-weight: 700;
 }
- .temp {
-     margin: 0;
-     font-weight: bold;
+.temp {
+    margin: 0;
+    font-weight: bold;
 }
- .temp_min {
-     margin: 0;
-     font-weight: 700;
+.temp_min {
+    margin: 0;
+    font-weight: 700;
 }
- .temp_max {
-     margin: 0;
-     font-weight: 700;
+.temp_max {
+    margin: 0;
+    font-weight: 700;
 }
 .weather-col {
     margin-top: 5rem;
 }
 /* font awesome styling. ------------ */
- .fa-map-signs {
-     color: #744600;
+.fa-map-signs {
+    color: #744600;
 }
- .fa-calendar-alt {
-     color: #708090;
+.fa-calendar-alt {
+    color: #708090;
 }
- .fa-couch {
-     color: #deb887;
+.fa-couch {
+    color: #deb887;
 }
- .fa-tree {
-     color: #228b22;
+.fa-tree {
+    color: #228b22;
 }
- .fa-road {
-     color: #708090;
+.fa-road {
+    color: #708090;
 }
- .fa-poll-h {
-     color: #0000ff;
+.fa-poll-h {
+    color: #0000ff;
 }
 .fa-icicles {
     color: #add8e6;
@@ -368,81 +370,81 @@ p {
 }
 
 /* Footer -------------------------------------------------- */
- footer {
-     opacity: 0.7;
-     color: #fff;
+footer {
+    opacity: 0.7;
+    color: #fff;
 }
- .footer-head {
-     text-decoration: underline;
+.footer-head {
+    text-decoration: underline;
 }
- .dropdown-menu .dropdown-item {
-     color: #000000;
+.dropdown-menu .dropdown-item {
+    color: #000000;
 }
-a{
+a {
     color: inherit;
 }
 /*------------------------------------------------------ Contact Form */
- .contact-heading{
-     font-family: "Exo", sans-serif;
-     font-weight: 300;
-     margin-top: 25px;
-     margin-bottom: 20px;
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
- .center-form{
-     padding-top: 10px;
-     margin: 0 auto;
-     max-width: 70%;
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
- button[type="submit"] {
-     margin-top: 20px;
-     margin-bottom: 20px;
-     color: #fafafa;
-     background-color: #e84610;
+button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
 }
 /* Popup container */
- .popup {
-     position: relative;
-     display: inline-block;
-     cursor: pointer;
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
 /* The actual popup (appears on top) */
- .popup .popuptext {
-     visibility: hidden;
-     width: 160px;
-     background-color: #555;
-     color: #fff;
-     text-align: center;
-     border-radius: 6px;
-     padding: 8px 0;
-     position: absolute;
-     z-index: 1;
-     bottom: 125%;
-     left: 50%;
-     margin-left: -80px;
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
 }
 /* quiz */
- #wrapper {
-     width: 600px;
-     margin: 0 auto;
-     background: #fff;
-     padding: 10px 15px;
-     border-radius: 10px;
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
 }
- .input-quiz {
-     margin: 5px 10px;
+.input-quiz {
+    margin: 5px 10px;
 }
- #submit-quiz {
-     background: #008000;
-     padding: 12px;
+#submit-quiz {
+    background: #008000;
+    padding: 12px;
 }
- #reset {
-     background: #ff0000;
-     padding: 12px;
+#reset {
+    background: #ff0000;
+    padding: 12px;
 }
- #answer {
-     border: 1px dashed #ccc;
-     background: #eee;
-     padding: 10px;
+#answer {
+    border: 1px dashed #ccc;
+    background: #eee;
+    padding: 10px;
 }
 .quiz-submit {
     border: 2pt solid #000;
@@ -452,157 +454,159 @@ a{
     background-color: #deb887;
 }
 /*------ */
- .facts {
-     color: #000;
+.facts {
+    color: #000;
 }
- .show-fact1, .show-fact2, .show-fact3 {
-     display: none;
-     color: #000;
-     background-color: #fff;
+.show-fact1,
+.show-fact2,
+.show-fact3 {
+    display: none;
+    color: #000;
+    background-color: #fff;
 }
 /* gallery. */
 /*--- image gallery ----*/
- .row-gallery {
-     display: flex;
-     flex-wrap: wrap;
-     padding: 0 4px;
+.row-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
- .gallery {
-     width: 95%;
-     margin: 0 auto;
+.gallery {
+    width: 95%;
+    margin: 0 auto;
 }
- .beach-text {
-     display: none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000;
-      box-shadow: 3px 2px #000;
+.beach-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000;
+    box-shadow: 3px 2px #000;
 }
- .countryroad-text {
-     display:none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000;
-      box-shadow: 3px 2px #000;
+.countryroad-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000;
+    box-shadow: 3px 2px #000;
 }
- .water-text {
-     display:none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000;
-      box-shadow: 3px 2px #000;
+.water-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000;
+    box-shadow: 3px 2px #000;
 }
- .wrestling-text {
-     display:none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000;
-      box-shadow: 3px 2px #000;
+.wrestling-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000;
+    box-shadow: 3px 2px #000;
 }
- .spa-text {
-     display:none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000000;
-      box-shadow: 3px 2px #000;
+.spa-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000000;
+    box-shadow: 3px 2px #000;
 }
- .mine-text {
-     display:none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000;
-      box-shadow: 3px 2px #000;
+.mine-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000;
+    box-shadow: 3px 2px #000;
 }
- .fair-text {
-     display:none;
-     padding: 5px;
-     text-align: center;
-     background-color: #d3d3d3;
-     border: solid 1px #c3c3c3;
-     opacity: 0.7;
-     color: #000;
-      box-shadow: 3px 2px #000;
+.fair-text {
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: #d3d3d3;
+    border: solid 1px #c3c3c3;
+    opacity: 0.7;
+    color: #000;
+    box-shadow: 3px 2px #000;
 }
 /*----- jquery packages gallery ---- */
 /*--- country package ----*/
- .beachkite {
-     display: none;
+.beachkite {
+    display: none;
 }
- .beachkite-text {
-     display: none 
+.beachkite-text {
+    display: none;
 }
- .cartmel {
-     display: none;
+.cartmel {
+    display: none;
 }
- .cartmel-text {
-     display: none;
+.cartmel-text {
+    display: none;
 }
- .dogchase {
-     display: none;
+.dogchase {
+    display: none;
 }
- .dogchase-text {
-     display: none;
+.dogchase-text {
+    display: none;
 }
 /*--- adventure packages ----*/
- .adventure-text {
-     display: none;
+.adventure-text {
+    display: none;
 }
- .cycle-pair{
-     display: none;
+.cycle-pair {
+    display: none;
 }
- .adventure-1and2-text{
-     display:none;
+.adventure-1and2-text {
+    display: none;
 }
- .hike{
-     display:none;
+.hike {
+    display: none;
 }
- .adventure-3and4-text{
-     display:none;
+.adventure-3and4-text {
+    display: none;
 }
- .sail{
-     display:none;
+.sail {
+    display: none;
 }
- .adventure-5and6-text{
-     display:none;
+.adventure-5and6-text {
+    display: none;
 }
 /*---- comfort packages ------*/
- .picnic {
-     display: none;
+.picnic {
+    display: none;
 }
- .picnic-text{
-     display: none;
+.picnic-text {
+    display: none;
 }
- .forest {
-     display: none;
+.forest {
+    display: none;
 }
- .forest-text{
-     display: none;
+.forest-text {
+    display: none;
 }
- .window{
-     display:none;
+.window {
+    display: none;
 }
- .window-text{
-     display:none;
+.window-text {
+    display: none;
 }
 /*---- */
- #discover-link {
-     color: #0000ff;
+#discover-link {
+    color: #0000ff;
 }
