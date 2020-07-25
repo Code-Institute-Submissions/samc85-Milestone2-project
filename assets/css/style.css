@@ -273,7 +273,8 @@ p {
      font-size: 18px;
      background-color: lightgrey;
      padding: 9px;
-     border: 3pt;
+     border: 0.7pt solid black;
+     margin: 3px;
 }
 .towns:hover {
     background-color: red;
@@ -318,6 +319,9 @@ p {
  .temp_max {
      margin: 0;
      font-weight: 700;
+}
+.weather-col {
+    margin-top: 5rem;
 }
 /* font awesome styling. ------------ */
  .fa-map-signs {
@@ -378,6 +382,7 @@ p {
      color: #fafafa;
      background-color: #e84610;
 }
+
 /* Popup container */
  .popup {
      position: relative;
@@ -450,6 +455,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .bird-text {
      display: none;
@@ -458,6 +464,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .beach-text {
      display: none;
@@ -466,6 +473,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .bike-text {
      display: none;
@@ -474,6 +482,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .countryroad-text {
      display:none;
@@ -482,6 +491,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .water-text {
      display:none;
@@ -490,6 +500,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .wrestling-text {
      display:none;
@@ -498,6 +509,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .spa-text {
      display:none;
@@ -506,6 +518,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .mine-text {
      display:none;
@@ -514,6 +527,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
  .fair-text {
      display:none;
@@ -522,6 +536,7 @@ p {
      background-color: lightgrey;
      border: solid 1px #c3c3c3;
      opacity: 0.7;
+     color: black;
 }
 /*----- jquery packages gallery ---- */
 /*--- country package ----*/

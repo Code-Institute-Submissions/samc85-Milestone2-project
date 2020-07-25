@@ -294,6 +294,9 @@ $(document).ready(
 
 //contact form
 
-$(document).ready(function email() {
-  document.getElementById("email").innerHTML = "YOU CLICKED ME!";
+
+
+
+$("#send").on('çlick', function(){
+    $(this).css('background-color', 'green');
 });
