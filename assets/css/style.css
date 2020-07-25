@@ -321,6 +321,16 @@ p {
  .fa-poll-h {
      color: blue;
 }
+.fa-icicles {
+    color: lightblue;
+}
+.fa-water {
+    color: blue;
+}
+.fa-paw {
+    color: brown;
+}
+
 /* Footer -------------------------------------------------- */
  footer {
      opacity: 0.7;
