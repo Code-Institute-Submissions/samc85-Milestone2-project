@@ -1,10 +1,8 @@
 $(document).ready(function () {
     // Popover function
-    $(function () {
         $("[data-toggle='popover']").popover({
             html: true,
         });
-    });
     // Country gallery
     $(".bath").click(function () {
         $(".bath-text").slideToggle("slow");
@@ -291,12 +289,3 @@ $(document).ready(
     })
 );
 
-
-//contact form
-
-
-
-
-$("#send").on('çlick', function(){
-    $(this).css('background-color', 'green');
-});
