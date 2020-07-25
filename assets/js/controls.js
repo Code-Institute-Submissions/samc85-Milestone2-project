@@ -290,3 +290,10 @@ $(document).ready(
         answerbox.innerHTML = "Your result will show up here!";
     })
 );
+
+
+//contact form
+
+$(document).ready(function email() {
+  document.getElementById("email").innerHTML = "YOU CLICKED ME!";
+});

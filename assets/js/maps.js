@@ -5,6 +5,7 @@
             lat: 54.4609,
             lng: -3.0886,
         },
+    
     });
 
     let bikeLayer = new google.maps.BicyclingLayer();
@@ -37,4 +38,8 @@
         bounds.extend(marker.getPosition());
     }
     map.fitBounds(bounds);
+
+
 }
+
+
