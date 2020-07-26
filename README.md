@@ -1,27 +1,29 @@
-https://samc85.github.io/Milestone2-project/index.html
+https://samc85.github.io/Milestone2-project/
 
 `python3 -m http.server`
 
 
-![responsive image](https://samc85.github.io/Milestone-Project-1/style/images/readmeimage.png)
-
-
-
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/milestone2.png)
 
 # Lake district travel
+This website is for a travel company based in the Lake District, UK.  Run by locals, its owners wanted to provide holidayers with the best possible experience within the Lake District, based on their own preference.
 
 
 ### Company mission statement:
-
+The company is designed to give holidayers a bespoke experience when visiting the Lakes.  With the explosion in tourism over the past decade, the Lakes have become a popular destination with much to offer.
 
 
 ## UX
 
-This website is designed for
+This website is designed for a company with a strong focus on user choice.  The website is designed to not only offer a range of packages but also give users help in deciding which package is good for them.
 
 The website can be divided into 3 main areas.  These are:
 
+Home Page (index)
+Discover Page (discover)
+Need some help? (quiz)
 
+All pages are linked together through the navbar and footer.
 
 All pages have links back to each section for ease of navigation.
 
@@ -51,8 +53,9 @@ The following features are also included throughout the page (external sources a
 Navbar includes company name styled with 2 different fonts for impact and to emphasise appeal to children.  Bootstrap 4 was used
 to set layout. Navbar links hover red.
 
-* Content (Font Awesome)
+* Content (Font Awesome and Bootstrap 4.4.1)
 Font Awesome icons are used throughout the page.  Various icons are coloured/re-sized using CSS.
+Page layout used Bootstraps' carousel example page, with custom alteration made to suit client needs.
 
 * Background images via CSS
 Images are styled using CSS and written as background images.  As images are non-essential
@@ -62,14 +65,16 @@ and do not contain any information, this is why this was done as opposed to usin
 Footer includes contact page link and repeats menu options from Navbar for UX ease.  
 Home button is stylised through Font Awesome.
 
-* Form (Bootstrap 4.4.1)
-On the contact page, the form is used to collect user contact info.  Form submission is currently
-empty.
+* Contact Form (EmailJS)
+
 
 * Links to social media pages (currently to general social media sites).
 
-*API's 
-google maps and places library
+* Maps API
+The Map element was created using the Google Maps API and Places library.  Destination co-ordinates were taken from a google map search.
+
+* Current Weather 
+The current weather element was created using the OpenWeather API.  This is updated approximately every 3 hours due to restrictions in current API subscription.
 
 *Jquery/Javascript
 quiz
