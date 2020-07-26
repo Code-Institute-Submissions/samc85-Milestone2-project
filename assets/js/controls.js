@@ -226,17 +226,15 @@ $(document).ready(function () {
     });
 });
 
-//quiz
+//quiz -  structure followed codeexplained.org sample on youtube, however customised to meet client purpose
 
 // function to calculate the result of the survey
 $(document).ready(
     (score = () => {
-        // initialize variables for each choice's score
-        // If you add more choices and outcomes, you must add another variable here.
-        let c1score = 0;
-        let c2score = 0;
-        let c3score = 0;
-        let c4score = 0;
+        let adventurescore = 0;
+        let comfortscore = 0;
+        let countryscore = 0;
+      
 
         // get a list of the radio inputs on the page
         let choices = document.getElementsByTagName("input");
@@ -245,39 +243,33 @@ $(document).ready(
             // if the radio is checked..
             if (choices[i].checked) {
                 // add 1 to that choice's score
-                if (choices[i].value == "c1") {
-                    c1score = c1score + 1;
+                if (choices[i].value == "ad1") {
+                    adventurescore = adventurescore + 1;
                 }
-                if (choices[i].value == "c2") {
-                    c2score = c2score + 1;
+                if (choices[i].value == "com2") {
+                    comfortscore = comfortscore + 1;
                 }
-                if (choices[i].value == "c3") {
-                    c3score = c3score + 1;
+                if (choices[i].value == "coun3") {
+                    countryscore = countryscore + 1;
                 }
-                if (choices[i].value == "c4") {
-                    c4score = c4score + 1;
-                }
-                // If you add more choices and outcomes, you must add another if statement below.
             }
         }
         // Find out which choice got the highest score.
-        // If you add more choices and outcomes, you must add the variable here.
-        let maxscore = Math.max(c1score, c2score, c3score, c4score);
+        let maxscore = Math.max(adventurescore, comfortscore, countryscore);
         // Display answer corresponding to that choice
         let answerbox = document.getElementById("answer");
-        if (c1score == maxscore) {
+        if (adventurescore == maxscore) {
             // If user chooses the first choice the most, this outcome will be displayed.
             answerbox.innerHTML = "You are an adventure seeker... why not look at our Adventure package";
         }
-        if (c2score == maxscore) {
+        if (comfortscore == maxscore) {
             // If user chooses the second choice the most, this outcome will be displayed.
             answerbox.innerHTML = "You appreciate the opportunity to relax and doing things at your leisure... why not look at our Comfort packages";
         }
-        if (c3score == maxscore) {
+        if (countryscore == maxscore) {
             // If user chooses the third choice the most, this outcome will be displayed.
             answerbox.innerHTML = "You seek the Country life... enjoying nature, local towns... why not explore our Country packages";
         }
-        // If you add more choices, you must add another response below.
     })
 );
 

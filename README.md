@@ -19,9 +19,23 @@ This website is designed for a company with a strong focus on user choice.  The 
 
 The website can be divided into 3 main areas.  These are:
 
-Home Page (index)
-Discover Page (discover)
-Need some help? (quiz)
+Home Page (index.html)
+-About Us
+-What we do
+-Packages
+-Contact Form
+
+Discover Page (discover.html)
+-Google Map with Locations
+-Current Weather
+-Attractions Gallery
+-Contact Form
+
+Need some help? (quiz.html)
+-Did you know facts?
+-User quiz
+-Carousel Gallery
+-Contact Form
 
 All pages are linked together through the navbar and footer.
 
