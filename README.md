@@ -54,7 +54,7 @@ All pages have links back to each section for ease of navigation.
 
 Wireframes generally reamined true to website design.  Index page is included above.  Whilst details
 would still be filled in, the layout of each page type generally remained the same throughout the process and
-across devices.
+across devices.  During a mentor call, the suggestion was made to incorporate package pages into one, this was taken aboard and designs were merged where appropriate.
 
 ## Features
 
@@ -90,18 +90,21 @@ The Map element was created using the Google Maps API and Places library.  Desti
 * Current Weather 
 The current weather element was created using the OpenWeather API.  This is updated approximately every 3 hours due to restrictions in current API subscription.
 
-* quiz
+* Quiz
+The Quiz uses Javascript and Jquery.  It was designed with support from Codeexplained.org who demonstrate making a Javascript quiz on their youtube page.  However, as
+this quiz is more of a survey, the logic and code had to be different in order to meet client and user needs.  Code was informed by Code Institute lessons and Code Academy activities.
+
 
 * Image controls
+Images are controlled using JQuery click events.
 
 * Carousel
-
-
+Carousel is a Boostrap 4.4.1 template.
 
 
 
 ## Features Left to Implement
-
+Once up and running, website can implement a booking system for customers.
 
 
 ## Technologies Used
@@ -111,11 +114,12 @@ The current weather element was created using the OpenWeather API.  This is upda
 3. Bootstrap 4.4.1
 4. Font Awesome
 5. Google fonts
-6. 
+6. Open Weather API
 7. GitHub
 8. Jquery
 9. Javascript
-10. api's 
+10. Google MAP API
+11. JSEmail API
 
 ## Testing
 
@@ -130,21 +134,28 @@ Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pr
 
  The website was checked through the following Validation service tools:
 
+
+
+## W3 validator
+
 * https://validator.w3.org/nu/?doc=https%3A%2F%2Fsamc85.github.io%2FMilestone-Project-1%2Findex.html
 
-When using the HTML w3 validator, 1 error and warnings about using section headings described below.
+When using the HTML w3 validator, 0 errors and  1 warning about using section headings described below.
+- Type attribute not needed for Javascript 
 
-### Error
+## JSLint 
+
+1 error found relating to popover function, expecting identifier but finding )};.  Function is taken from Bootstrap 4.4.1 popover element and as 
+it works as expected, was noted, but ignored.
 
 
- 
-### Warnings
-
-.
-
+## CSS Validator
 * https://jigsaw.w3.org/css-validator/validator 
 
-* https://search.google.com/test/mobile-friendly?view=fetch-info&id=q4uzg-TJfKy5nnwHnu9x5Q 
+No errors.
+
+
+## BrowserStack (Responsiveness)
 
 * Browserstack was also used to test on the following devices (chosen based on Browserstack Start Up data):
 
@@ -161,6 +172,29 @@ https://www.browserstack.com
 All tests showed the website as it intended to look with little/to no variation between devices.
 
 Overall the website was consistently responsive according to the above tests  and adhered to HTML and CSS standards set out by validation tools described above.  
+
+## Google Developer Tools
+
+* Errors
+The following 3 errors occur during testing and running of the page.
+
+Uncaught Type Error:  Cannot set property of 'innerHTML' to null.  
+This is realted to the quiz answer box's.  Code reads as null if responses did not meet score criteria.  This showed no effect on 
+UI or UX with the quiz, which works as required.
+
+GET OpenWeather API Forbidden: This will occur if page is refereshed within the 3 hour limit set out in API restriction.  As it does not effect
+page it is also ignored.
+
+LoadMap is not a function (Google MAP API): Occasionally, Google Maps does not load correctly onto the page.  This has only occured when testing through
+the gitpod browser function and has not occurred when tested using uploaded pages on a range of devices.  During user testing, this was not a reported problem
+however worth noting and keeping watch over.
+
+
+* Warnings
+The following warnings came on each page:
+
+Cookie assocaited with cross site resource set without same site attribute.  This had no adverse affect on the page.  Please refer to 
+https://www.chromestatus.com/feature/5088147346030592 for more details.
 
 ## User Testing
 
