@@ -18,7 +18,7 @@
         <title>Lake District Holidays</title>
     </head>
     <body>
-        <!-- Navbar content -->
+        <!-- Navbar template taken from Bootstrap templates -->
         <nav class="navbar sticky-top navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="discover.html">Discover the Lake District</a>
             <!--- Dropdown content -->
@@ -39,9 +39,7 @@
 
         <div class="background-image-lakes"></div>
 
-        <!-- Marketing messaging and featurettes
-      ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+       <!-- Start main content: template taken from bootstrap carousel page example-->
 
         <div class="container marketing">
             <div class="featurette text-align">
@@ -54,11 +52,13 @@
 
             <hr class="featurette-divider" />
 
+            <!-- Google Map API -->
+
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Explore the Lakes.</h2>
                     <h3 class="text-muted text-align">There's something for everyone.</h3>
-                    <p class="lead">You will never get bored of all the Lakes have to offer. Take a look at some of the towns and villages you will explore in our packages.</p>
+                    <p class="lead">You will never get bored of all the Lakes have to offer. Take a look at some of the towns and villages you will explore in our packages.  Zoom in and explore.</p>
                 </div>
                 <div class="col-md-5">
                     <div id="map"></div>
@@ -77,6 +77,8 @@
             </div>
 
             <hr class="featurette-divider" />
+
+            <!-- OpenWeather API-->
 
             <div class="row featurette">
                 <div class="col-md-7 order-md-2 weather-col">
@@ -105,7 +107,7 @@
 
             <hr class="featurette-divider" />
 
-            <!-- /END THE FEATURETTES -->
+            <!-- Attractions gallery template taken from W3 schools gallery example -->
             <h2 class="featurette-heading text-align">Want to explore more?</h2>
             <h3 class="text-muted text-align">Click on each image to learn more.</h3>
             <div class="row gallery">
@@ -127,6 +129,8 @@
                     <div class="spa-text">Home to a range of hotels that offer a Spa experience.</div>
                 </div>
             </div>
+
+            <!--  Contact Form -->
 
             <hr class="feature-space contact-form" />
 
@@ -158,39 +162,30 @@
         <!-- end container marketing -->
 
         <!-- footer -->
-        <footer class="footer mt-auto py-3 bg-dark">
+        <footer class="footer mt-auto py-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm">
-                        <a href="index.html"><h5 class="footer-head">Home</h5></a>
+                    <div class="col-sm-3">
+                        <h5 class="footer-head">Home</h5>
                         <p>Ph: 084894859</p>
                         <p>Address: 5 Lake Way</p>
                         <p>Ambleside</p>
                         <p>T4 L09</p>
                     </div>
-                    <div class="col-sm">
-                        <a href="index.html"><h5 class="footer-head">About</h5></a>
-                        <p>Us</p>
-                        <p>What we do</p>
-                        <p>Get in contact</p>
-                    </div>
-                    <div class="col-sm">
-                        <a href="index"><h5 class="footer-head">Packages</h5></a>
-                        <p>Comfort</p>
-                        <p>Country</p>
-                        <p>Adventure</p>
-                    </div>
-                    <div class="col-sm">
-                        <h5 class="footer-head">Discover</h5>
-                        <a href="discover.html"><p>The Lake District</p></a>
+                    <div class="col-sm-3">
+                        <h5 class="footer-head">Page Links</h5>
+                        <a href="index.html"><p>About Us and our packages</p></a>
+                        <a href="discover.html"><p>Discover The Lake District</p></a>
                         <a href="quiz.html"><p>Help with your choice</p></a>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-3">
                         <h5 class="footer-head">Social Media Links</h5>
                         <div><i class="fab fa-facebook"></i></div>
                         <div><i class="fab fa-instagram"></i></div>
                         <div><i class="fab fa-twitter-square"></i></div>
-                        <p>#DiscovertheLakes</p>
+                    </div>
+                    <div clas="col-sm-3 text-align">
+                        <i class="fa fa-tree fa-7x"></i>
                     </div>
                 </div>
             </div>

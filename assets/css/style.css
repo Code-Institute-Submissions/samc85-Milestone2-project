@@ -10,6 +10,7 @@ p {
 }
 .text-align {
     text-align: center;
+    padding-top: 6px;
 }
 .image-radius {
     padding-top: 24px;
@@ -133,6 +134,10 @@ img {
     background-size: cover;
     display: inline-block;
     background-position: center;
+}
+
+#discover-link {
+    color: #0000ff;
 }
 /*--- Package background images on index page ---*/
 .background-image-country {
@@ -274,7 +279,7 @@ h1,
 }
 .card-footer {
     background-color: #ff2d00;
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
 .package-image-text {
     padding-top: 15px;
@@ -299,15 +304,9 @@ h1,
 }
 
 /*---- Jquery Packages ---*/
-.bath-text {
-    display: none;
-}
-#adventure-package {
-    display: none;
-}
-#country-package {
-    display: none;
-}
+.bath-text,
+#adventure-package,
+#country-package,
 #comfort-package {
     display: none;
 }
@@ -374,6 +373,7 @@ h1,
 footer {
     opacity: 0.7;
     color: #fff;
+    background-color: #000;
 }
 .footer-head {
     text-decoration: underline;
@@ -548,66 +548,31 @@ button[type="submit"] {
 }
 /*----- jquery packages gallery ---- */
 /*--- country package ----*/
-.beachkite {
-    display: none;
-}
-.beachkite-text {
-    display: none;
-}
-.cartmel {
-    display: none;
-}
-.cartmel-text {
-    display: none;
-}
-.dogchase {
-    display: none;
-}
+.beachkite, 
+.beachkite-text,
+.cartmel,
+.cartmel-text,
+.dogchase,
 .dogchase-text {
     display: none;
 }
 /*--- adventure packages ----*/
-.adventure-text {
-    display: none;
-}
-.cycle-pair {
-    display: none;
-}
-.adventure-1and2-text {
-    display: none;
-}
-.hike {
-    display: none;
-}
-.adventure-3and4-text {
-    display: none;
-}
-.sail {
-    display: none;
-}
+.adventure-text,
+.cycle-pair,
+.adventure-1and2-text,
+.hike,
+.adventure-3and4-text,
+.sail,
 .adventure-5and6-text {
     display: none;
 }
 /*---- comfort packages ------*/
-.picnic {
-    display: none;
-}
-.picnic-text {
-    display: none;
-}
-.forest {
-    display: none;
-}
-.forest-text {
-    display: none;
-}
-.window {
-    display: none;
-}
+.picnic,
+.picnic-text,
+.forest,
+.forest-text,
+.window,
 .window-text {
     display: none;
 }
-/*---- */
-#discover-link {
-    color: #0000ff;
-}
+

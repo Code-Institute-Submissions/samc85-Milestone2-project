@@ -18,11 +18,10 @@
         <title>Lake District Holidays</title>
     </head>
     <body>
-        <!-- Navbar content -->
+        <!-- Navbar template taken from Bootstrap templates -->
         <nav class="navbar sticky-top navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="index.html">Welcome to the Lakes</a>
             <!--- Dropdown content -->
-
             <div class="btn-group">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">
                     <i class="fas fa-bars"></i>
@@ -35,8 +34,8 @@
             </div>
         </nav>
 
-        <!-- ******** Check images ******* -->
-
+      
+        <!-- Hero image for index page... fontawesome icon used for map-->
         <div class="hero-image">
             <h1 class="text-align hero-text">Come explore</h1>
             <h1 class="text-align">The UK's most visited National Park</h1>
@@ -45,11 +44,11 @@
             </div>
         </div>
 
+
+        <!--Page layout taken from Bootstrap Carousel Examples -->
+
         <div class="container marketing">
             <hr class="feature-space" />
-            <!-- Marketing messaging and featurettes
-  ================================================== -->
-            <!-- Wrap the rest of the page in another container to center all the content. -->
             <section id="about">
                 <h2 class="text-align about-text featurette-heading">About Us</h2>
                 <h3 class="text-align text-muted">Your Lake Experts</h3>
@@ -59,11 +58,9 @@
                 <p class="text-align">Whatever your ideal holiday is, we are here to help, giving you a range of possible memories...</p>
             </section>
             <hr class="feature-space" />
+
             <!-- START THE FEATURETTES -->
-
-            <!-- About, What we do, Contact sections. -->
-
-            <!-- travel options in circles    Adventure, City Break, Country Life  -->
+            
             <section id="whatwedo">
                 <div class="row featurette background-image-what"></div>
                 <hr class="feature-space" />
@@ -75,7 +72,6 @@
             <!-- travel options in circles    Adventure, City Break, Country Life  -->
             <section id="choose">
                 <h2 class="text-align">Choose from one of the 3 options below..</h2>
-                <!-- travel options in circles    Adventure, City Break, Country Life  -->
                 <hr class="feature-space" />
                 <div class="row">
                     <div class="col-lg-4">
@@ -88,7 +84,6 @@
                         </div>
                         <hr class="feature-space" />
                     </div>
-                    <!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <img class="coast" src="assets/images/index_images/hike.jpg" width="240" height="240" alt="Hiking" />
                         <hr class="feature-space" />
@@ -99,7 +94,6 @@
                         </div>
                         <hr class="feature-space" />
                     </div>
-                    <!-- /.col-lg-4 -->
                     <div class="col-lg-4">
                         <img class="coast" src="assets/images/index_images/colours.jpg" width="240" height="240" alt="Lake at sunset" />
                         <hr class="feature-space" />
@@ -108,11 +102,9 @@
                         <a href="#country-package" class="btn-main" id="hide-country">Country</a>
                         <hr class="feature-space" />
                     </div>
-
-                    <!-- /.col-lg-4 -->
                 </div>
             </section>
-            <!-- adventure package -->
+        
             <section id="adventure-package">
                 <hr class="feature-space" />
                 <div class="featurette text-align">
@@ -136,7 +128,7 @@
                                 <h5 class="card-title">6 days / 5 nights</h5>
                                 <p class="card-text">Hike, Sail and Cycle, our Adventure package offers you experiences all over the Lake District.</p>
                                 <p class="card-text">Prices start from £499 for the week. Get in contact for more details.</p>
-                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Prices are based on a full package.  Get in contact for other options.">
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Prices are based on a full package.  Get in contact for other options.">
                                     More details
                                 </button>
                             </div>
@@ -168,7 +160,7 @@
                                 <a href="#return-adventure" class="adventure-day1and2 btn-main">
                                     Activities
                                 </a>
-                            </div>
+                            </div>  
                             <div class="card-footer"></div>
                         </div>
 
@@ -207,7 +199,7 @@
                 <hr class="feature-space" />
             </section>
 
-            <!-- comfort package -->
+     
 
             <section id="comfort-package">
                 <hr class="feature-space" />
@@ -231,7 +223,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">6 days / 5 nights</h5>
                                 <p class="card-text">Enjoy the best of comfort the Lakes has to offer. Prices start from £699 for the week. Enquire for more options.</p>
-                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Prices are based on a full package.  Get in contact for other options.">
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Prices are based on a full package.  Get in contact for other options.">
                                     More details
                                 </button>
                             </div>
@@ -301,7 +293,7 @@
                 <hr class="feature-space" />
             </section>
 
-            <!-- country package -->
+          
 
             <section id="country-package">
                 <hr class="feature-space" />
@@ -331,7 +323,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">6 days / 5 nights</h5>
                                 <p class="card-text">Enjoy a week exploring the Lakes, where you can experience the landscape, villages and local delights. Prices start from £599 for the week.</p>
-                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Prices are based on a full package.  Get in contact for other options.">
+                                <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Prices are based on a full package.  Get in contact for other options.">
                                     More details
                                 </button>
                             </div>
@@ -342,11 +334,11 @@
                         <div id="country-return"></div>
                         <img src="assets/images/index_images/country.jpg" height="320" width="320" class="bath" alt="bath scene" />
                         <img src="assets/images/index_images/beach.jpg" height="320" width="320" class="beachkite" id="beachkite" alt="kites on beach" />
-                        <p class="beachkite-text package-image-text">Enjoy local festivals.</p>
+                        <p class="beachkite-text package-image-text">Days 1 and 2.  Get out and enjoy local festivals.</p>
                         <img src="assets/images/index_images/Cartmel.jpg" height="320" width="320" class="cartmel" id="cartmel" alt="cartmel races" />
-                        <p class="cartmel-text package-image-text">There's always something on, with Cartmel races always being a highlight.</p>
+                        <p class="cartmel-text package-image-text">Days 3 and 4.  There's always something on, with Cartmel races always being a highlight.</p>
                         <img src="assets/images/index_images/dogchase.jpg" height="320" width="320" class="dogchase" id="dogchase" alt="dogs on farm" />
-                        <p class="dogchase-text package-image-text">Witness local activities and traditions.</p>
+                        <p class="dogchase-text package-image-text">Day 5 and 6. Witness local activities and traditions from a range of options.</p>
                     </div>
                 </div>
                 <hr class="feature-space" />
@@ -399,7 +391,7 @@
                 <hr class="feature-space" />
             </section>
 
-            <!--   discover page links -->
+            <!--  discover page links -->
 
             <section id="discover">
                 <div class="row featurette">
@@ -446,45 +438,35 @@
             </section>
             <!-- container marketing end tag-->
         </div>
-        <!-- footer -->
-        <footer class="footer mt-auto py-3 bg-dark" id="footer">
+         <!-- footer -->
+        <footer class="footer mt-auto py-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm">
-                        <a href="index.html"><h5 class="footer-head">Home</h5></a>
+                    <div class="col-sm-3">
+                        <h5 class="footer-head">Home</h5>
                         <p>Ph: 084894859</p>
                         <p>Address: 5 Lake Way</p>
                         <p>Ambleside</p>
                         <p>T4 L09</p>
                     </div>
-                    <div class="col-sm">
-                        <a href="index.html"><h5 class="footer-head">About</h5></a>
-                        <p>Us</p>
-                        <p>What we do</p>
-                        <p>Get in contact</p>
-                    </div>
-                    <div class="col-sm">
-                        <a href="index"><h5 class="footer-head">Packages</h5></a>
-                        <p>Comfort</p>
-                        <p>Country</p>
-                        <p>Adventure</p>
-                    </div>
-                    <div class="col-sm">
-                        <h5 class="footer-head">Discover</h5>
-                        <a href="discover.html"><p>The Lake District</p></a>
+                    <div class="col-sm-3">
+                        <h5 class="footer-head">Page Links</h5>
+                        <a href="index.html"><p>About Us and our packages</p></a>
+                        <a href="discover.html"><p>Discover The Lake District</p></a>
                         <a href="quiz.html"><p>Help with your choice</p></a>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-3">
                         <h5 class="footer-head">Social Media Links</h5>
                         <div><i class="fab fa-facebook"></i></div>
                         <div><i class="fab fa-instagram"></i></div>
                         <div><i class="fab fa-twitter-square"></i></div>
-                        <p>#DiscovertheLakes</p>
+                    </div>
+                    <div clas="col-sm-3 text-align">
+                        <i class="fa fa-tree fa-7x"></i>
                     </div>
                 </div>
             </div>
         </footer>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="assets/js/controls.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>

@@ -18,7 +18,7 @@
         <title>Lake District Holidays</title>
     </head>
     <body>
-        <!-- Navbar content -->
+        <!-- Navbar template taken from Bootstrap templates -->
         <nav class="navbar sticky-top navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="quiz.html">Need help choosing?</a>
             <!--- Dropdown content -->
@@ -35,11 +35,11 @@
             </div>
         </nav>
 
-        <!--- hero image -->
+        <!--- hero image for quiz page-->
 
         <div class="background-image-quiz"></div>
 
-        <!--- Heading text -->
+        <!--- main section taken from Bootstrap carousel example -->
 
         <div class="container marketing">
             <hr class="featurette-divider" />
@@ -50,6 +50,8 @@
             </div>
 
             <div class="background-image-friends"></div>
+
+        <!-- Did you know section with jquery click events -->
 
             <div class="card-group">
                 <div class="card facts">
@@ -87,7 +89,7 @@
                 </div>
             </div>
 
-            <!-- START THE Quiz section -->
+            <!-- START Quiz section -->
             <section id="lakes-quiz">
                 <hr class="featurette-divider" />
                 <div class="text-align"><i class="fas fa-poll-h fa-6x"></i></div>
@@ -146,7 +148,6 @@
                             <!-- Question 3 -->
                             <br />
                             <h2>Where is your ideal destination?</h2>
-                            <!-- Choices for the third question -->
                             <label>
                                 <input type="radio" name="q3" value="c1" class="input-quiz" />
                                 Lakes, mountains and trails
@@ -165,7 +166,6 @@
 
                             <!-- Question 4 -->
                             <h2>What word appeals to you most?</h2>
-                            <!-- Choices for the fourth question -->
                             <label>
                                 <input type="radio" name="q4" value="c1" class="input-quiz" />
                                 Explore
@@ -197,7 +197,7 @@
 
             <hr class="featurette-divider" />
 
-            <!-- customer gallery -->
+            <!-- customer gallery Bootstrap Carousel example used for template-->
             <section id="customer-gallery">
                 <div class="row featurette">
                     <div class="col-lg-7">
@@ -218,37 +218,37 @@
                                 <div class="carousel-item active">
                                     <img src="assets/images/quiz_images/cartmel.jpg" class="d-block w-100" alt="Cartmel Races" />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p class="carousel-text">"We had a great day at the races, one day was not enough!"</p>
+                                        <p class="carousel-text">"We had a great day at the races, one day was not enough!" -Daisy</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="assets/images/quiz_images/hounds.jpg" class="d-block w-100" alt="Hounds on farm" />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p class="carousel-text">"The local fairs were the best, all the activites on display."</p>
+                                        <p class="carousel-text">"The local fairs were the best, all the activites on display." -George</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="assets/images/quiz_images/kite.jpg" class="d-block w-100" alt="Kite surfing" />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p class="carousel-text">"The opportunity to try new activities really made our holiday memorable."</p>
+                                        <p class="carousel-text">"The opportunity to try new activities really made our holiday memorable." -Harrison</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="assets/images/quiz_images/fort.jpg" class="d-block w-100" alt="Ancient fort" />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p class="carousel-text">"I was amazed at the history on show, was not expecting the amount of ruins."</p>
+                                        <p class="carousel-text">"I was amazed at the history on show, was not expecting the amount of ruins." -Carrie</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="assets/images/quiz_images/bees.jpg" class="d-block w-100" alt="Bee nest" />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p class="carousel-text">"The range of wildlife you saw was incredible!"</p>
+                                        <p class="carousel-text">"The range of wildlife you saw was incredible!" -Warwick</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="assets/images/quiz_images/cycling.jpg" class="d-block w-100" alt="Cycling group" />
                                     <div class="carousel-caption d-none d-md-block">
-                                        <p class="carousel-text">"The cycle trip was the best time for me, I'd never gone so far on a bike before."</p>
+                                        <p class="carousel-text">"The cycle trip was the best time for me, I'd never gone so far on a bike before." -Mark</p>
                                     </div>
                                 </div>
                             </div>
@@ -292,45 +292,35 @@
         </div>
         <!-- container marketing end-->
 
-        <!-- footer -->
-        <footer class="footer mt-auto py-3 bg-dark">
+         <!-- footer -->
+        <footer class="footer mt-auto py-3">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm">
-                        <a href="index.html"><h5 class="footer-head">Home</h5></a>
+                    <div class="col-sm-3">
+                        <h5 class="footer-head">Home</h5>
                         <p>Ph: 084894859</p>
                         <p>Address: 5 Lake Way</p>
                         <p>Ambleside</p>
                         <p>T4 L09</p>
                     </div>
-                    <div class="col-sm">
-                        <a href="index.html"><h5 class="footer-head">About</h5></a>
-                        <p>Us</p>
-                        <p>What we do</p>
-                        <p>Get in contact</p>
-                    </div>
-                    <div class="col-sm">
-                        <a href="index"><h5 class="footer-head">Packages</h5></a>
-                        <p>Comfort</p>
-                        <p>Country</p>
-                        <p>Adventure</p>
-                    </div>
-                    <div class="col-sm">
-                        <h5 class="footer-head">Discover</h5>
-                        <a href="discover.html"><p>The Lake District</p></a>
+                    <div class="col-sm-3">
+                        <h5 class="footer-head">Page Links</h5>
+                        <a href="index.html"><p>About Us and our packages</p></a>
+                        <a href="discover.html"><p>Discover The Lake District</p></a>
                         <a href="quiz.html"><p>Help with your choice</p></a>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-3">
                         <h5 class="footer-head">Social Media Links</h5>
                         <div><i class="fab fa-facebook"></i></div>
                         <div><i class="fab fa-instagram"></i></div>
                         <div><i class="fab fa-twitter-square"></i></div>
-                        <p>#DiscovertheLakes</p>
+                    </div>
+                    <div clas="col-sm-3 text-align">
+                        <i class="fa fa-tree fa-7x"></i>
                     </div>
                 </div>
             </div>
         </footer>
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
 
