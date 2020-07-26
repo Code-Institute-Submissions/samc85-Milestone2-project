@@ -76,10 +76,14 @@ The Map element was created using the Google Maps API and Places library.  Desti
 * Current Weather 
 The current weather element was created using the OpenWeather API.  This is updated approximately every 3 hours due to restrictions in current API subscription.
 
-*Jquery/Javascript
-quiz
-controls
-links to api
+* quiz
+
+* Image controls
+
+* Carousel
+
+
+
 
 
 ## Features Left to Implement
