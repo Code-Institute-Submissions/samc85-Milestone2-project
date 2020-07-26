@@ -274,6 +274,7 @@ h1,
 }
 .card-footer {
     background-color: #ff2d00;
+    margin-bottom: 9px;
 }
 .package-image-text {
     padding-top: 15px;
