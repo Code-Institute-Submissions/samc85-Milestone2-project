@@ -5,7 +5,6 @@
             lat: 54.460683,
             lng: -3.090921,
         },
-    
     });
 
     let bikeLayer = new google.maps.BicyclingLayer();
@@ -22,7 +21,7 @@
         ["bowness-on-windermere", 54.3647, -2.9196],
         ["grasmere", 54.4597, -3.0244],
         ["hawkshead", 54.3758, -2.9994],
-        ["lake-district", 54.460683, -3.090921],   
+        ["lake-district", 54.460683, -3.090921],
     ];
 
     let bounds = new google.maps.LatLngBounds();
@@ -38,8 +37,4 @@
         bounds.extend(marker.getPosition());
     }
     map.fitBounds(bounds);
-
-
-}
-
-
+};

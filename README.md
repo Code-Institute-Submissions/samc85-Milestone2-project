@@ -1,7 +1,5 @@
 https://samc85.github.io/Milestone2-project/
 
-`python3 -m http.server`
-
 
 ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/milestone2.png)
 

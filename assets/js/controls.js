@@ -1,8 +1,8 @@
 $(document).ready(function () {
     // Popover function
-        $("[data-toggle='popover']").popover({
-            html: true,
-        });
+    $("[data-toggle='popover']").popover({
+        html: true,
+    });
     // Country gallery
     $(".bath").click(function () {
         $(".bath-text").slideToggle("slow");
@@ -234,7 +234,6 @@ $(document).ready(
         let adventurescore = 0;
         let comfortscore = 0;
         let countryscore = 0;
-      
 
         // get a list of the radio inputs on the page
         let choices = document.getElementsByTagName("input");
@@ -280,4 +279,3 @@ $(document).ready(
         answerbox.innerHTML = "Your result will show up here!";
     })
 );
-
