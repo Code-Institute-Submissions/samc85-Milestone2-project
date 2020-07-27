@@ -19,30 +19,30 @@ with much to offer.
 "Bringing the Lakes and all it has to offer to its visitors."
 
 
-## UX
+# UX
 
 This website is designed for a company with a strong focus on user choice.  
 The website is designed to not only offer a range of packages but also give users help in deciding which package is good for them.
 
 The website can be divided into 3 main areas.  These are:
 
-Home Page (index.html)
--About Us
--What we do
--Packages
--Contact Form
+## Home Page (index)
+* About Us
+* What we do
+* Packages
+* Contact Form
 
-Discover Page (discover.html)
--Google Map with Locations
--Current Weather
--Attractions Gallery
--Contact Form
+## Discover Page (discover)
+* Google Map with Locations
+* Current Weather
+* Attractions Gallery
+* Contact Form
 
-Need some help? (quiz.html)
--Did you know facts?
--User quiz
--Carousel Gallery
--Contact Form
+## Need some help? (quiz)
+* Did you know facts?
+* User quiz
+* Carousel Gallery
+* Contact Form
 
 All pages are linked together through the navbar and footer.
 
@@ -77,42 +77,42 @@ in order to increase customisation of website e.g, color schemes and spacing.
 
 The following features are also included throughout the page (external sources attributed).
 
-* Navbar (Bootstrap 4.4.1, Font Awesome and Google Fonts)
+* **Navbar (Bootstrap 4.4.1, Font Awesome and Google Fonts)**
 Navbar includes company name styled with 2 different fonts for impact and to emphasise appeal to children.  Bootstrap 4 was used
 to set layout. Navbar links hover red.
 
-* Content (Font Awesome and Bootstrap 4.4.1)
+* **Content (Font Awesome and Bootstrap 4.4.1)**
 Font Awesome icons are used throughout the page.  Various icons are coloured/re-sized using CSS.
 Page layout used Bootstraps' carousel example page, with custom alteration made to suit client needs.
 
-* Background images via CSS
+* **Background images via CSS**
 Images are styled using CSS and written as background images.  As images are non-essential
 and do not contain any information, this is why this was done as opposed to using a HTML tag.
 
-* Footer (Bootstrap 4.4.1 and Font Awesome)
+* **Footer (Bootstrap 4.4.1 and Font Awesome)**
 Footer includes contact page link and repeats menu options from Navbar for UX ease.  
 Home button is stylised through Font Awesome.
 
-* Contact Form (EmailJS)
+* **Contact Form (EmailJS)**
 Using the EmailJS API, customer email template is setup.
 
-* Links to social media pages (currently to general social media sites).
+* **Links to social media pages (currently to general social media sites).**
 
-* Google Maps API
+* **Google Maps API**
 The Map element was created using the Google Maps API and Places library.  Destination co-ordinates were taken from a google map search.
 
-* Current Weather (OpenWeather API)
+* **Current Weather (OpenWeather API)**
 The current weather element was created using the OpenWeather API.  This is updated approximately every 3 hours due to restrictions in current API subscription.
 
-* Quiz (Javascript and Jquery)
+* **Quiz (Javascript and Jquery)**
 The Quiz uses Javascript and Jquery.  It was designed with support from Codeexplained.org who demonstrate making a Javascript quiz on their youtube page.  However, as
 this quiz is more of a survey, the logic and code had to be different in order to meet client and user needs.  Code was informed by Code Institute lessons and Code Academy activities.
 
 
-* Image controls such as toggle, or hide/show (Jquery)
+* **Image controls such as toggle, or hide/show (Jquery)**
 Images are controlled using JQuery click events.
 
-* Carousel (Bootstrap 4.4.1)
+* **Carousel (Bootstrap 4.4.1)**
 Carousel is a Boostrap 4.4.1 template.
 
 
@@ -137,15 +137,41 @@ Once up and running, website can implement a booking system for customers.
 
 The website was tested using the following:
 
-* GitHub live preview port
+## Internal Testing 
+
+**GitHub live preview port**
 This was used through `python3 -m http.server` provided by Code Institute. 
 
-* Google Dev. Tools 
+**Google Developer Tools**
 This was used to view the responsiveness of the webpage through the following:
 Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pro.  
 
- The website was checked through the following Validation service tools:
+## Errors
+The following 3 errors occur during testing and running of the page through the Google Developer Tool.
 
+* **Uncaught Type Error:**  Cannot set property of 'innerHTML' to null.  
+This is realted to the quiz answer box's.  Code reads as null if responses did not meet score criteria.  This showed no effect on 
+UI or UX with the quiz, which works as required, through the required if statements.
+
+* **GET OpenWeather API Forbidden:** This will occur if page is refereshed within the 3 hour limit set out in API restriction.  As it does not effect
+page it is also ignored.
+
+* **LoadMap is not a function (Google MAP API):** Occasionally, Google Maps does not load correctly onto the page.  This has only occured when testing through
+the gitpod browser function and has not occurred when tested using uploaded pages on a range of devices.  During user testing, this was not a reported problem
+however worth noting and keeping watch over.
+
+## Warnings
+The following warnings came on each page:
+
+Cookie assocaited with cross site resource set without same site attribute.  This had no adverse affect on the page.  Please refer to 
+https://www.chromestatus.com/feature/5088147346030592 for more details.
+
+* Developer Tools Emulator
+The Google Developer Tools Emulator was also used across mobile and tablet devices with no bugs or unexpected discrepencies between devices.
+
+## External Testing
+
+The website was checked through the following Validation service tools:
 
 ### W3 validator
 
@@ -165,7 +191,6 @@ it works as expected, was noted, but ignored.
 
 No errors.
 
-
 ### BrowserStack (Responsiveness)
 
 * Browserstack was also used to test on the following devices (chosen based on Browserstack Start Up data):
@@ -183,30 +208,6 @@ https://www.browserstack.com
 All tests showed the website as it intended to look with little/to no variation between devices.
 Overall the website was consistently responsive according to the above tests  and adhered to HTML and CSS standards set out by validation tools described above.  
 
-### Google Developer Tools
-
-* Errors
-The following 3 errors occur during testing and running of the page.
-
-Uncaught Type Error:  Cannot set property of 'innerHTML' to null.  
-This is realted to the quiz answer box's.  Code reads as null if responses did not meet score criteria.  This showed no effect on 
-UI or UX with the quiz, which works as required.
-
-GET OpenWeather API Forbidden: This will occur if page is refereshed within the 3 hour limit set out in API restriction.  As it does not effect
-page it is also ignored.
-
-LoadMap is not a function (Google MAP API): Occasionally, Google Maps does not load correctly onto the page.  This has only occured when testing through
-the gitpod browser function and has not occurred when tested using uploaded pages on a range of devices.  During user testing, this was not a reported problem
-however worth noting and keeping watch over.
-
-* Warnings
-The following warnings came on each page:
-
-Cookie assocaited with cross site resource set without same site attribute.  This had no adverse affect on the page.  Please refer to 
-https://www.chromestatus.com/feature/5088147346030592 for more details.
-
-* Developer Tools Emulator
-The Google Developer Tools Emulator was also used across mobile and tablet devices with no bugs or unexpected discrepencies between devices.
 
 ## User Testing
 
@@ -220,7 +221,6 @@ A range of random users were contacted to test the page.  This included testing 
 
 Testing across devices no discrepencies were found amongst and all features worked.
 Users reported that they found the site to be 'professional', 'easy to use' and contained 'a range of options to book from.'
-
 
 ## Speed
 
@@ -237,8 +237,7 @@ No user bugs reported.
 ### Repository
 All code was written on Github using a newly created repository.
 
-https://gith
-
+https://github.com/samc85/Milestone2-project
 
 ### Updates
 
@@ -270,17 +269,21 @@ https://htmlformatter.com/
 
 https://www.cleancss.com/css-beautify/
 
-https://jshint.com/
+https://jslint.com/
 
-jslint
+https://www.codeexplained.org/
+
+https://www.codecademy.com/
  
 ## Content
 
 ### Text 
 
+Text was written by myself and proofread by known Lake District residents.
 
 ### Media
-* 
+* The photos have come from personal photos, photos from unsplash and photos from a Lake District Photographer 
+whom shared photos via email.
 
 * Banner image in README.md was created using
 
