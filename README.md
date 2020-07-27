@@ -70,6 +70,9 @@ and exploring different options.
 Wireframes are generally true to the webpage.  The initial frame had seperate page for each package, however
 these were merged into one page upon review.  Full frames (desktop, tablet, phone) can be located at:  
 
+
+https://github.com/samc85/Milestone2-project/tree/master/assets/images/Wireframes
+
 ## Features
 
 The website uses Bootstrap 4.5.0 due to its layout and responsiveness.  Custom alterations are made
