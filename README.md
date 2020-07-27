@@ -65,6 +65,7 @@ and exploring different options.
 ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/Wireframes/revised_page_plan.png)
 
 
+
 Wireframes are generally true to the webpage.  The initial frame had seperate page for each package, however
 these were merged into one page upon review.  Full frames (desktop, tablet, phone) can be located at:  
 
