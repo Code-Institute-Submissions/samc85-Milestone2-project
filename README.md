@@ -192,6 +192,11 @@ No errors.
 1 error found relating to popover function, expecting identifier but finding )};.  Function is taken from Bootstrap 4.4.1 popover element and as 
 it works as expected, was noted, but ignored.
 
+### JSHint (for Javascript)
+
+9 warnings were flagged up through this service, based on use of 'let' to declare variables and arrow function syntax.  However, when set for Jquery and new 
+ES6 features, they are not flagged.  
+
 ### BrowserStack (for Responsiveness)
 
 * Browserstack was also used to test on the following devices (chosen based on Browserstack Start Up data):
