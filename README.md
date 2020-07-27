@@ -245,6 +245,11 @@ All code was written on Github using a newly created repository.
 
 https://github.com/samc85/Milestone2-project
 
+### Gitpod Deployment
+
+Code was tested through the GitPod platform by entering 'python3 -m http.server' into the console or by clicking
+the windown icon in the right hand corner for a in-window view of page code representation.
+
 ### Updates
 
 Using GitHub, HTML, CSS and additional resources were updated via the below process:
