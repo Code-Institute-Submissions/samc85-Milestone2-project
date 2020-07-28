@@ -240,7 +240,7 @@ Website was also submitted for Peer Review on Code Institute Slack channel.  Res
 
 ## Speed
 
-* https://tools.pingdom.com/#5c52cd18a2c00000
+* https://tools.pingdom.com/
 
 Website was tested and given a 'B' with Current Score of 82.
 
