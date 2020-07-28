@@ -281,6 +281,10 @@ a live website.  This was done through the following steps:
 * Select Master Branch as source
 * Publish Page and test live address
 
+Published page is accessible at:
+
+https://samc85.github.io/Milestone2-project/
+
 ## Credits
 
 * https://www.w3schools.com/   was used as a point of reference
