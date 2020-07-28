@@ -136,6 +136,9 @@ chat feature to help a user decide or ask questions is also considered a key pie
 
 ## Testing
 
+Testing was done frequently throughout the design process. This included continual tests when writing code through the below methods, as well as user feedback on specific
+functions/technologies and external validators.  
+
 The website was tested using the following:
 
 ## Internal Testing 
@@ -221,7 +224,8 @@ Overall the website was consistently responsive according to the above tests  an
 
 ## User Testing
 
-A range of random users were contacted to test the page.  This included testing on devices (as reported by users):
+A range of random users were contacted to test the page.  Users were selected based on their perceived proficiency with technology to ensure a range of different 
+users.  This included testing on devices (as reported by users):
 
 * ipad pro 9.7inch
 * iphone 10, 8 and 7
@@ -238,7 +242,10 @@ Website was also submitted for Peer Review on Code Institute Slack channel.  Res
 
 * https://tools.pingdom.com/#5c52cd18a2c00000
 
-Website was tested and given a B with Current Score of 82.
+Website was tested and given a 'B' with Current Score of 82.
+
+One feature to add in future releases could be the suggested 'Compress components with gzip' as suggested by the speed testing report in order
+to further increase speed.  This was the lone item that received a 'C' rating with all others receiving 'B' or 'A.'
 
 ## User bugs
 
