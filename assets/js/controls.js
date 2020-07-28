@@ -263,7 +263,7 @@ $(document).ready(
         }
         if (comfortscore == maxscore) {
             // If user chooses the second choice the most, this outcome will be displayed.
-            answerbox.innerHTML = "You appreciate the opportunity to relax and doing things at your leisure... why not look at our Comfort packages";
+            answerbox.innerHTML = "Looking for a relaxing getaway? Enjoy a week away in our Comfort package";
         }
         if (countryscore == maxscore) {
             // If user chooses the third choice the most, this outcome will be displayed.

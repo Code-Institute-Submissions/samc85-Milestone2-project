@@ -197,6 +197,10 @@ it works as expected, was noted, but ignored.
 9 warnings were flagged up through this service, based on use of 'let' to declare variables and arrow function syntax.  However, when set for Jquery and new 
 ES6 features, they are not flagged.  
 
+### Esprima (for Javascrupt)
+
+Code result was deemed syntaxically valid.
+
 ### BrowserStack (for Responsiveness)
 
 * Browserstack was also used to test on the following devices (chosen based on Browserstack Start Up data):
