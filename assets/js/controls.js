@@ -256,25 +256,25 @@ $(document).ready(
         // Find out which choice got the highest score.
         let maxscore = Math.max(adventurescore, comfortscore, countryscore);
         // Display answer corresponding to that choice
-        let answerbox = document.getElementById("answer");
+        let answerbox1 = document.getElementById("answer");
         if (adventurescore == maxscore) {
             // If user chooses the first choice the most, this outcome will be displayed.
-            answerbox.innerHTML = "You are an adventure seeker... why not look at our Adventure package";
+            answerbox1.innerHTML = "You are an adventure seeker... why not look at our Adventure package";
         }
         if (comfortscore == maxscore) {
             // If user chooses the second choice the most, this outcome will be displayed.
-            answerbox.innerHTML = "Looking for a relaxing getaway? Enjoy a week away in our Comfort package";
+            answerbox1.innerHTML = "Looking for a relaxing getaway? Enjoy a week away in our Comfort package";
         }
         if (countryscore == maxscore) {
             // If user chooses the third choice the most, this outcome will be displayed.
-            answerbox.innerHTML = "You seek the Country life... enjoying nature, local towns... why not explore our Country packages";
+            answerbox1.innerHTML = "You seek the Country life... enjoying nature, local towns... why not explore our Country packages";
         }
     })
 );
 
 // program the reset button
 $(document).ready(
-    (resetAnswer = () => {
+    window.onload = (resetAnswer = () => {
         let answerbox = document.getElementById("answer");
         answerbox.innerHTML = "Your result will show up here!";
     })
