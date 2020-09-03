@@ -176,7 +176,7 @@ $(document).ready(function () {
     });
 
     // fact cards
-    $(document).ready(function () {
+    $(function () {
         $(".fact2").click(function () {
             $(".show-fact2").slideToggle("slow");
         });
@@ -189,37 +189,37 @@ $(document).ready(function () {
     });
 
     //------- discover gallery
-    $(document).ready(function () {
+    $(function () {
         $(".countryroad").click(function () {
             $(".countryroad-text").slideToggle("slow");
         });
     });
 
-    $(document).ready(function () {
+    $(function () {
         $(".water").click(function () {
             $(".water-text").slideToggle("slow");
         });
     });
 
-    $(document).ready(function () {
+    $(function () {
         $(".wrestling").click(function () {
             $(".wrestling-text").slideToggle("slow");
         });
     });
 
-    $(document).ready(function () {
+    $(function () {
         $(".mine").click(function () {
             $(".mine-text").slideToggle("slow");
         });
     });
 
-    $(document).ready(function () {
+    $(function () {
         $(".fair").click(function () {
             $(".fair-text").slideToggle("slow");
         });
     });
 
-    $(document).ready(function () {
+    $(function () {
         $(".spa").click(function () {
             $(".spa-text").slideToggle("slow");
         });

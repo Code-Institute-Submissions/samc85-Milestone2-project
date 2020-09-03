@@ -43,9 +43,7 @@ $(document).ready(
 );
 
 // program the reset button
-$(document).ready(
-    window.onload = (resetAnswer = () => {
+$(resetAnswer = () => {
         let answerbox = document.getElementById("answer");
         answerbox.innerHTML = "Your result will show up here!";
-    })
-);
+    });
