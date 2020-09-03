@@ -21,6 +21,7 @@ $(document).ready(
                 if (choices[i].value == "coun3") {
                     countryscore = countryscore + 1;
                 }
+                
             }
         }
         // Find out which choice got the highest score.
@@ -39,6 +40,9 @@ $(document).ready(
             // If user chooses the third choice the most, this outcome will be displayed.
             answerbox1.innerHTML = "You seek the Country life... enjoying nature, local towns... why not explore our Country packages";
         }
+        if(countryscore == maxscore && comfortscore == maxscore && adventurescore == maxscore) {
+                answerbox1.innerHTML = "Fill in the above for your choice!";
+                }
     })
 );
 
