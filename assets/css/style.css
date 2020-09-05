@@ -243,7 +243,7 @@ img {
 
 
 @media (max-width: 425px) {
-    .adventure-day1and2, .adventure-day3and4, .adventure-day5and6{
+    .adventure-day1and2, .adventure-day3and4, .adventure-day5and6, .comfort-day1and2, .comfort-day3and4, .comfort-day5and6, .country-day1and2, .country-day3and4, .country-day5and6{
         display: none;
     }
 }
