@@ -13,4 +13,8 @@ $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Windermere,uk&units
     $(".temperature").append(temp);
     $(".temp_max").append(temp_max);
     $(".temp_min").append(temp_min);
+
+    
 });
+
+

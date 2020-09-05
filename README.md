@@ -327,7 +327,7 @@ https://samc85.github.io/Milestone2-project/
 
 * Code Institute Course resources were used to revise/check back as a point of reference
 
-* Code for HTML and CSS was beautified using HTML and CSS Formatters.
+* Code for HTML, CSS and Javascript was beautified using HTML, CSS and Javascript Formatters.
 
 https://htmlformatter.com/
 
@@ -335,9 +335,24 @@ https://www.cleancss.com/css-beautify/
 
 https://jslint.com/
 
+* Support with writing code referenced the following additional websites:
+
 https://www.codeexplained.org/
 
 https://www.codecademy.com/
+
+* APIs were sourced form the following pages
+
+https://openweathermap.org/appid
+
+https://developers.google.com/maps/documentation
+
+https://www.emailjs.com/
+
+* Some photos were sourced from unsplash
+
+https://unsplash.com/
+
  
 ## Content
 
