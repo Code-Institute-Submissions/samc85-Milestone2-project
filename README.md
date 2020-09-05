@@ -3,8 +3,6 @@ https://samc85.github.io/Milestone2-project/
 
 ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/milestone2.png)
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/imaccapture.jpeg)
-
 # Lake district travel
 This website is for a travel company based in the Lake District, UK.  
 Run by locals, its owners wanted to provide holidayers with the best possible experience within 
@@ -51,14 +49,22 @@ All pages have links back to each section for ease of navigation.
 ## User Stories
 
 * As a prospective customer, I want to learn about the place I am visiting.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/learnabout.png) 
 * As a prospective customer, I want to see where I am going and what is on offer there.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/whatsonoffer.png) 
 * As a prosepctive customer, I want to see where I am going on a map and what locations are available.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/map.png) 
 * As a prosepctive customer, I want to see images of where I am visiting.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/imaccapture.png) 
 * As a prosepctive customer, I want to hear and see what others have experienced in the destination.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/other.png) 
 * As a prospective customer, I want to see a range of packages on offer to suit my preferences.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packages.png) 
 * As a prospective customer, I want help in choosing my ideal holiday.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/helpchoosing.png) 
 * As a prospective customer, I want to be able to navigate a site easily, going back on my choices
 and exploring different options.
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/nav.png) 
 
 ## Wireframes
 
