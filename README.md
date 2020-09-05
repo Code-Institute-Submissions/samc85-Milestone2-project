@@ -3,6 +3,8 @@ https://samc85.github.io/Milestone2-project/
 
 ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/milestone2.png)
 
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/imaccapture.jpeg)
+
 # Lake district travel
 This website is for a travel company based in the Lake District, UK.  
 Run by locals, its owners wanted to provide holidayers with the best possible experience within 
