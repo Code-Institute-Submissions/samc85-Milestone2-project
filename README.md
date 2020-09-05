@@ -49,22 +49,36 @@ All pages have links back to each section for ease of navigation.
 ## User Stories
 
 * As a prospective customer, I want to learn about the place I am visiting.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/learnabout.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_learnabout.png) 
+
 * As a prospective customer, I want to see where I am going and what is on offer there.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/whatsonoffer.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_whatsonoffer.png) 
+
 * As a prosepctive customer, I want to see where I am going on a map and what locations are available.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/map.png) 
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_map.png) 
+
 * As a prosepctive customer, I want to see images of where I am visiting.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/imaccapture.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/user_story_other.png) 
+
 * As a prosepctive customer, I want to hear and see what others have experienced in the destination.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/other.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_othersexp.png) 
+
 * As a prospective customer, I want to see a range of packages on offer to suit my preferences.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packages.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_packages.png) 
+
 * As a prospective customer, I want help in choosing my ideal holiday.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/helpchoosing.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/user_story_helpchoosing.png) 
+
 * As a prospective customer, I want to be able to navigate a site easily, going back on my choices
 and exploring different options.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/nav.png) 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_nav.png) 
 
 ## Wireframes
 
