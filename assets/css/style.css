@@ -39,6 +39,11 @@ img {
     border-radius: 12px;
     font-weight: 700;
     box-shadow: 3px 2px #000;
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
 }
 /* Navbar --------------------------------------------------- */
 .navbar {
@@ -240,12 +245,6 @@ img {
 @media (max-width: 425px) {
     .adventure-day1and2, .adventure-day3and4, .adventure-day5and6{
         display: none;
-    }
-}
-
-@media (min-width: 768px) {
-    .card-deck {
-        
     }
 }
 
@@ -458,6 +457,7 @@ button[type="submit"] {
 #submit-quiz {
     background: #008000;
     padding: 12px;
+    cursor: pointer;
 }
 #reset {
     background: #ff0000;
@@ -471,9 +471,11 @@ button[type="submit"] {
 .quiz-submit {
     border: 2pt solid #000;
     margin-top: 18px;
+    cursor: pointer;
 }
 #quiz-submit:hover {
     background-color: #deb887;
+    cursor: pointer;
 }
 /*------ */
 .facts {
