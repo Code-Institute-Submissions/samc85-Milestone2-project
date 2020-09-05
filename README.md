@@ -255,6 +255,20 @@ users.  This included testing on devices (as reported by users):
 * Imac desktop
 * Windows based Desktop (computer make was not specified)
 
+Screenshots of some devices presentations are included below:
+
+iphone 7
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/iphonecapture.jpeg)
+
+Imac desktop
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/imaccapture.png) 
+
+ipad pro 9.7
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/ipadcapture.png) 
+
 Testing across devices no discrepencies were found amongst and all features worked.
 Users reported that they found the site to be 'professional', 'easy to use' and contained 'a range of options to book from.'
 
