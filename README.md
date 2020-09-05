@@ -341,6 +341,10 @@ https://www.codeexplained.org/
 
 https://www.codecademy.com/
 
+https://api.jquery.com/jquery.getjson/
+
+https://stackoverflow.com/
+
 * APIs were sourced form the following pages
 
 https://openweathermap.org/appid

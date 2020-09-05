@@ -1,5 +1,4 @@
-try {
-    $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Windermere,uk&units=metric&APPID=5f8d3dba7a0c645864d0ce3eceb76b6a", function (data) {
+$.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Windermere,uk&units=metric&APPID=5f8d3dba7a0c645864d0ce3eceb76b6a", function (data) {
     
     let icon = "https://openweathermap.org/img/wn/" + data.weather[0].icon + ".png";
 
@@ -14,7 +13,8 @@ try {
     $(".temp_max").append(temp_max);
     $(".temp_min").append(temp_min);
 })
+.fail(function(jqxhr, textStatus, error) {
+    let err = textStatus + ", " +error;
+    console.log( "Request Failed " + err );
+});
 
-} catch (error) {
-  alert("Error detected");
-}
