@@ -1,5 +1,5 @@
 $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Windermere,uk&units=metric&APPID=5f8d3dba7a0c645864d0ce3eceb76b6a", function (data) {
-    console.log(data);
+    
 
     let icon = "https://openweathermap.org/img/wn/" + data.weather[0].icon + ".png";
 

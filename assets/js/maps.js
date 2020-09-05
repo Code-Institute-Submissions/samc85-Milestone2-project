@@ -11,7 +11,7 @@
     bikeLayer.setMap(map);
 
     $(".towns").click(function () {
-        console.log(this.dataset.lat + "," + this.dataset.lng);
+        
         map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
         map.setZoom(14);
     });
