@@ -398,7 +398,9 @@ https://openweathermap.org/appid
 
 ### EmailJS API
 
+The below link gives the appropriate steps for creating an EmailJS API key.
 
+https://www.emailjs.com/docs/
 
 
 ## Credits
