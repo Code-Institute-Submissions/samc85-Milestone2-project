@@ -17,7 +17,7 @@ with much to offer.
 "Bringing the Lakes and all it has to offer to its visitors."
 
 
-# UX
+# User Experience (UX)
 
 This website is designed for a company with a strong focus on user choice.  
 The website is designed to not only offer a range of packages but also give users help in deciding which package is good for them.
@@ -50,35 +50,21 @@ All pages have links back to each section for ease of navigation.
 
 * As a prospective customer, I want to learn about the place I am visiting.
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_learnabout.png) 
-
 * As a prospective customer, I want to see where I am going and what is on offer there.
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_whatsonoffer.png) 
-
 * As a prosepctive customer, I want to see where I am going on a map and what locations are available.
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_map.png) 
 
 * As a prosepctive customer, I want to see images of where I am visiting.
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/user_story_other.png) 
-
-* As a prosepctive customer, I want to hear and see what others have experienced in the destination.
-
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_othersexp.png) 
+* As a prosepctive customer, I want to hear and see what others have experienced in the destination. 
 
 * As a prospective customer, I want to see a range of packages on offer to suit my preferences.
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_packages.png) 
-
 * As a prospective customer, I want help in choosing my ideal holiday.
-
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/user_story_helpchoosing.png) 
 
 * As a prospective customer, I want to be able to navigate a site easily, going back on my choices
 and exploring different options.
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_nav.png) 
 
 ## Wireframes
 
@@ -173,18 +159,8 @@ This was used to view the responsiveness of the webpage through the following:
 Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pro.  
 
 ## Errors
-The following 3 errors occur during testing and running of the page through the Google Developer Tool.
 
-* **Uncaught Type Error:**  Cannot set property of 'innerHTML' to null.  
-This is realted to the quiz answer box's.  Code reads as null if responses did not meet score criteria.  This showed no effect on 
-UI or UX with the quiz, which works as required, through the required if statements.
-
-* **GET OpenWeather API Forbidden:** This will occur if page is refereshed within the 3 hour limit set out in API restriction.  As it does not effect
-page it is also ignored.
-
-* **LoadMap is not a function (Google MAP API):** Occasionally, Google Maps does not load correctly onto the page.  This has only occured when testing through
-the gitpod browser function and has not occurred when tested using uploaded pages on a range of devices.  During user testing, this was not a reported problem
-however worth noting and keeping watch over.
+No errors are reported when running the page.
 
 ## Warnings
 The following warnings came on each page:
@@ -194,6 +170,57 @@ https://www.chromestatus.com/feature/5088147346030592 for more details.
 
 * Developer Tools Emulator
 The Google Developer Tools Emulator was also used across mobile and tablet devices with no bugs or unexpected discrepencies between devices.
+
+## User testing of User Experiences (UX) 
+
+As a prospective customer, I want to learn about the place I am visiting.
+
+* On the discover page of the site, I can learn more about key facts about the Lake District.  I can also explore images from both the company and other customers' experiences.
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_learnabout.png) 
+
+As a prospective customer, I want to see where I am going and what is on offer there.
+
+* The user is presented a wide variety of images of the Lake District as well as clear indications that this is where the site offerings are based, displayed on the initial hero image.  The user is also given a clear view of what packages and activities are on offer from the company. 
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_whatsonoffer.png) 
+
+As a prosepctive customer, I want to see where I am going on a map and what locations are available.
+
+* On the Discover page, the user is given the opportunity to explore different places in the Lake District using Google Maps.  Button features allow different areas to be zoomed in on for exploration.  
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_map.png) 
+
+As a prosepctive customer, I want to see images of where I am visiting.
+
+* Throughout the pages the user is given a range of images that explore the location.  These include hero images, galleries, itinerary descriptions and a carousel.
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/user_story_other.png) 
+
+As a prosepctive customer, I want to hear and see what others have experienced in the destination.
+
+* The user can view user images and experiences in the carousel gallery that quote what others' have expierences.  
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_othersexp.png)
+
+As a prospective customer, I want to see a range of packages on offer to suit my preferences.
+
+* The user is able to choose from a range of different travel packages based on their ideal holiday preference.  The user is able to follow each selection and explore what is on offer each day and activities on offer.
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_packages.png) 
+
+As a prospective customer, I want help in choosing my ideal holiday.
+
+* The user can take a quiz to help them decide what their ideal holiday would be based on a survey which calculates their best choice, based on responses.  
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/user_story_helpchoosing.png) 
+
+As a prospective customer, I want to be able to navigate a site easily, going back on my choices and exploring different options.
+
+* The user is able to navigate throughout the site using either the navbar which is sticky and the footer, both of which provides links throughout the page.  
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/userstory_nav.png) 
+
 
 ## External Testing
 
@@ -289,6 +316,8 @@ No user bugs reported.
  
 ## Deployment
 
+## GitHub Pages
+
 ### Repository
 All code was written on Github using a newly created repository.
 
@@ -320,6 +349,51 @@ a live website.  This was done through the following steps:
 Published page is accessible at:
 
 https://samc85.github.io/Milestone2-project/
+
+## Forking the GitHub Repository 
+
+Forking the GitHub Repository creates a copy of the original where another person is able to view and /or make changes without affecting the original repository.  This can be completed through the following steps:
+
+* Log into GitHub and locate the GitHub Repository
+* At the top of the Repository locate the "Fork" button.
+* Clicking this button will now create a copy of the original repository in one's own GitHub account.
+
+## Local Clone 
+
+If a person wished to make a local clone, the following steps should be followed:
+
+* Log into GitHub and locate the GitHub Repository.
+* Under the repository name, click "Clone or Download"
+* To clone the repository using HTTPS, under "Clone with HTTPS" copy this link.
+* Open Git Bash
+* Change the current working directory to the location upon which you want the cloned directory to be made.
+* Type 'git clone', and then past the URL previously copied e.g:
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-Repository
+
+* Press enter and your local clone will be created.  
+
+
+## API's
+
+If a person wishes to alter a copied or clone version of the repository, new API keys may be required.  The following details how to retrieve an API key from Google Maps, EmailJS and OpenWeatherMap API's, all of which are present throughout the project.
+
+### Google Map API
+
+In order to access a Google Map API, a user must first sign up to a Google Account and set up a billing account.  An overview of this can be found here:
+
+https://developers.google.com/maps/gmp-get-started
+
+Once a user has created a billing account, and created a project (as per Google Developer instructions) a user can enable one o more API keys.  Please refer to below for greater detail:
+
+https://developers.google.com/maps/documentation/javascript/get-api-key
+
+
+### OpenWeather Map API
+
+To sign up for OpenWeatherMap and create an API key, please refer to the link below for step by step guidance.  
+
+https://openweathermap.org/appid
 
 ## Credits
 
