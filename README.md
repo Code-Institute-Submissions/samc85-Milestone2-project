@@ -395,6 +395,12 @@ To sign up for OpenWeatherMap and create an API key, please refer to the link be
 
 https://openweathermap.org/appid
 
+
+### EmailJS API
+
+
+
+
 ## Credits
 
 * https://www.w3schools.com/   was used as a point of reference
