@@ -14,4 +14,8 @@ function sendMail(contactForm) {
                 alert("FAILED", error);
             }
         );
+        return false; 
 };
+
+
+  
