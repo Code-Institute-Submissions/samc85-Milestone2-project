@@ -9,14 +9,16 @@ function sendMail(contactForm) {
         .then(
             function (response) {
                 alert("SUCCESS! We will get back to you ASAP", response);
-                
             },
             function (error) {
                 alert("FAILED! Sorry try sending again", error);
             }
+
         );
+        document.form.reset();
         return false; 
 };
+
 
 
   
