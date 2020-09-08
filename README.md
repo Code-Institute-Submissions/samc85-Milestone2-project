@@ -68,7 +68,7 @@ and exploring different options.
 Tests and examples of User Stories are included further below in the testing section.
 
 
-## Wireframes
+# Wireframes
 
 ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/Wireframes/revised_page_plan.png)
 
@@ -80,7 +80,7 @@ these were merged into one page upon review.  Full frames (desktop, tablet, phon
 
 https://github.com/samc85/Milestone2-project/tree/master/assets/images/Wireframes
 
-## Features
+# Features
 
 The website uses Bootstrap 4.5.0 due to its layout and responsiveness.  Custom alterations are made
 in order to increase customisation of website e.g, color schemes and spacing. 
@@ -144,7 +144,7 @@ chat feature to help a user decide or ask questions is also considered a key pie
 10. Google MAP API
 11. EmailJS API
 
-## Testing
+# Testing
 
 Testing was done frequently throughout the design process. This included continual tests when writing code through the below methods, as well as user feedback on specific
 functions/technologies and external validators.  
@@ -300,7 +300,9 @@ ipad pro 9.7
 
 Testing across devices no discrepencies were found amongst and all features worked.  One user commented that on smaller mobile devices, in the options section, clicking on day itinerary's and images were squashed and not easy to view.  It was decided, based on this feedback, that package options would only show the Day cards, not the button option to ensure better readability and user experience.  Example comparison is below:
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagesmall.png) ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagelarge.png)  
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagesmall.png)    ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagelarge.png)  
+
+Users will still see the neccessary information to inform their holiday choice, however, due to screen size constraints, accompanying images were removed when accessing on smaller screened devices.
 
 Users reported that they found the site to be 'professional', 'easy to use' and contained 'a range of options to book from.'
 
@@ -319,7 +321,8 @@ to further increase speed.  This was the lone item that received a 'C' rating wi
 
 No user bugs reported.  
  
-## Deployment
+# Deployment
+
 
 ## GitHub Pages
 
@@ -381,7 +384,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-Repository
 
 ## API's
 
-If a person wishes to alter a copied or clone version of the repository, new API keys may be required.  The following details how to retrieve an API key from Google Maps, EmailJS and OpenWeatherMap API's, all of which are present throughout the project.
+If a person wishes to alter a copied or clone version of the repository, new API keys may be required.  The following details how to retrieve an API key from Google Maps, EmailJS and OpenWeatherMap API's, all of which are present throughout the project.  Links to API websites are added as they include comprehensive documentation in how to get started.
 
 ### Google Map API
 
@@ -393,6 +396,10 @@ Once a user has created a billing account, and created a project (as per Google 
 
 https://developers.google.com/maps/documentation/javascript/get-api-key
 
+To create a custom map, coordinates for specific locations can be obtained by searching for the 'lat lng' of a specifc place, e.g, 'London.'  GoogleMaps documentation for Javasript includes details upon how to create markers for places as well as customizing the map if a user wished to do so further.  
+
+https://developers.google.com/maps/documentation/javascript/overview
+
 
 ### OpenWeather Map API
 
@@ -400,12 +407,24 @@ To sign up for OpenWeatherMap and create an API key, please refer to the link be
 
 https://openweathermap.org/appid
 
+To select the specific OpenWeatherMap API, the below link gives a user options for how their weather is presented.
+
+https://openweathermap.org/api
+
 
 ### EmailJS API
 
 The below link gives the appropriate steps for creating an EmailJS API key.
 
 https://www.emailjs.com/docs/
+
+Further instruction is included within the following link:
+
+https://www.emailjs.com/docs/tutorial/overview/
+
+and explanation of how emailJS works is linked below:
+
+https://www.emailjs.com/docs/introduction/how-does-emailjs-work/
 
 
 ## Credits
@@ -431,6 +450,8 @@ https://www.codecademy.com/
 https://api.jquery.com/jquery.getjson/
 
 https://stackoverflow.com/
+
+https://codepen.io
 
 * APIs were sourced form the following pages
 
