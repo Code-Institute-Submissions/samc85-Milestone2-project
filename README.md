@@ -300,9 +300,7 @@ ipad pro 9.7
 
 Testing across devices no discrepencies were found amongst and all features worked.  One user commented that on smaller mobile devices, in the options section, clicking on day itinerary's and images were squashed and not easy to view.  It was decided, based on this feedback, that package options would only show the Day cards, not the button option to ensure better readability and user experience.  Example comparison is below:
 
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagesmall.png) 
-
-![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagelarge.png) 
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagesmall.png) ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/packagelarge.png)  
 
 Users reported that they found the site to be 'professional', 'easy to use' and contained 'a range of options to book from.'
 
