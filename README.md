@@ -375,7 +375,7 @@ If a person wished to make a local clone, the following steps should be followed
 * To clone the repository using HTTPS, under "Clone with HTTPS" copy this link.
 * Open Git Bash
 * Change the current working directory to the location upon which you want the cloned directory to be made.
-* Type 'git clone', and then past the URL previously copied e.g:
+* Type 'git clone', and then paste the URL previously copied e.g:
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-Repository
