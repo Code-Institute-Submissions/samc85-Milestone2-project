@@ -65,6 +65,8 @@ All pages have links back to each section for ease of navigation.
 * As a prospective customer, I want to be able to navigate a site easily, going back on my choices
 and exploring different options.
 
+Tests and examples of User Stories are included further below in the testing section.
+
 
 ## Wireframes
 
@@ -160,7 +162,7 @@ Pixel 2, Pixel XL, iphone 5, SE, 6/7/8 and plus versions, X and ipad and ipad pr
 
 ## Errors
 
-No errors are reported when running the page.
+No errors are reported when running the page.  
 
 ## Warnings
 The following warnings came on each page:
@@ -249,7 +251,7 @@ it works as expected, was noted, but ignored.
 9 warnings were flagged up through this service, based on use of 'let' to declare variables and arrow function syntax.  However, when set for Jquery and new 
 ES6 features, they are not flagged.  
 
-### Esprima (for Javascrupt)
+### Esprima (for Javascript)
 
 Code result was deemed syntaxically valid.
 
@@ -296,7 +298,11 @@ ipad pro 9.7
 
 ![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/ipadcapture.png) 
 
-Testing across devices no discrepencies were found amongst and all features worked.
+Testing across devices no discrepencies were found amongst and all features worked.  One user commented that on smaller mobile devices, in the options section, clicking on day itinerary's and images were squashed and not easy to view.  It was decided, based on this feedback, that package options would only show the Day cards, not the button option to ensure better readability and user experience.  Example comparison is below:
+
+![responsive image](https://samc85.github.io/Milestone2-project/assets/images/user-stories-captures/ipadcapture.png) 
+
+
 Users reported that they found the site to be 'professional', 'easy to use' and contained 'a range of options to book from.'
 
 Website was also submitted for Peer Review on Code Institute Slack channel.  Response included suggestions on missing links, which have been rectified.
