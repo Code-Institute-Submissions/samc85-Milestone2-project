@@ -331,6 +331,15 @@ All code was written on Github using a newly created repository.
 
 https://github.com/samc85/Milestone2-project
 
+To deploy the repository, the following steps are taken.  
+
+* Log into GitHub and find the correct GitHub Repository.
+* A the top of the Repository there is a 'Settings' button (do not click settings on top of the page) to click.
+* Scroll down the settings page to locate the "GitHub Pages" section. 
+* Under Source click the dropdown showing "None" and select "Master Branch."
+* The page will refresh.
+* Scroll back down the page and a new site link will now be published in the GitHub Pages section.  
+
 ### Gitpod Deployment
 
 Code was tested through the GitPod platform by entering 'python3 -m http.server' into the console or by clicking
