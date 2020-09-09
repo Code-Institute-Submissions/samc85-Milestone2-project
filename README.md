@@ -355,13 +355,13 @@ Git Status
 ```
 To give you the names of which files have been modified and require following the below process.
 ```
-* Git add (insert appropriate file path here e.g index.html)
+Git add (insert appropriate file path here e.g index.html)
 ```
 ```
-* Git commit -m '(insert description of update e.g Font style updated to ...)'
+Git commit -m '(insert description of update e.g Font style updated to ...)'
 ```
 ```
-* Git push  
+Git push  
 ```
 
 and all changes will be pushed to the repository.  
