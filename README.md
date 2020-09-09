@@ -347,12 +347,24 @@ To deploy the repository, the following steps are taken.
 Code was tested through the GitPod platform by entering 'python3 -m http.server' into the console or by clicking
 the windown icon in the right hand corner for a in-window view of page code representation.
 
-Using GitHub, HTML, CSS and additional resources were updated via the below process:
+Using GitHub, HTML, CSS. JavaScript and additional resources were updated via the below process:
 
-* Git add (ed)
-* Git commit (ed) -m
-* Git push (ed) to Repository
+In the Command line enter: 
+```
+Git Status
+```
+To give you the names of which files have been modified and require following the below process.
+```
+* Git add (insert appropriate file path here e.g index.html)
+```
+```
+* Git commit -m '(insert description of update e.g Font style updated to ...)'
+```
+```
+* Git push  
+```
 
+and all changes will be pushed to the repository.  
 
 ## Forking the GitHub Repository 
 
