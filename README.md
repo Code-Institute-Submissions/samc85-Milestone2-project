@@ -340,12 +340,12 @@ To deploy the repository, the following steps are taken.
 * The page will refresh.
 * Scroll back down the page and a new site link will now be published in the GitHub Pages section.  
 
-### Gitpod Deployment
+
+
+### Updates
 
 Code was tested through the GitPod platform by entering 'python3 -m http.server' into the console or by clicking
 the windown icon in the right hand corner for a in-window view of page code representation.
-
-### Updates
 
 Using GitHub, HTML, CSS and additional resources were updated via the below process:
 
@@ -353,19 +353,6 @@ Using GitHub, HTML, CSS and additional resources were updated via the below proc
 * Git commit (ed) -m
 * Git push (ed) to Repository
 
-### Published Page
-
-Within the repository, under the settings button GitHub Pages was accessed and published to created
-a live website.  This was done through the following steps:
-
-* Access Settings on Repository page
-* Scroll down to GitHub Pages container
-* Select Master Branch as source
-* Publish Page and test live address
-
-Published page is accessible at:
-
-https://samc85.github.io/Milestone2-project/
 
 ## Forking the GitHub Repository 
 
